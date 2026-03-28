@@ -2,56 +2,56 @@
     "collection": {
         "popular": [
             {
-                "image": "/img/menu/1.jpg",
-                "title": "Butter Chicken",
-                "price": "42",
+                "image": "/img/menu/tikka-platter.jpg",
+                "title": "Tikka Platter",
+                "price": "40",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Tender chicken in rich tomato-butter sauce with aromatic spices.",
-                "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Medium Spicy</div>"
+                "text": "A combination of classic Chicken Tikka and creamy Malai Tikka from the tandoor."
             },
             {
-                "image": "/img/menu/1.jpg",
-                "title": "Chicken Tikka Masala",
-                "price": "42",
-                "currency": "zł",
-                "rating": 5,
-                "text": "Grilled chicken in creamy tomato-based curry sauce.",
-                "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Medium Spicy</div>"
-            },
-            {
-                "image": "/img/menu/1.jpg",
-                "title": "Palak Paneer",
+                "image": "/img/menu/chicken-tikka.jpg",
+                "title": "Chicken Tikka",
                 "price": "34",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Cottage cheese cubes in creamy spinach gravy with spices.",
-                "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegetarian</div>"
+                "text": "Juicy chicken pieces in yogurt marinade with Indian spices, baked in tandoor."
             },
             {
-                "image": "/img/menu/1.jpg",
-                "title": "Chicken Biryani",
-                "price": "32",
+                "image": "/img/menu/korma.jpg",
+                "title": "Korma",
+                "price": "39",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Fragrant basmati rice layered with spiced chicken and herbs."
+                "text": "Silky cashew and cream sauce, rich and gently sweet. Paneer 39 | Chicken 42 | Prawns 52 zł.",
+                "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
             },
             {
-                "image": "/img/menu/1.jpg",
-                "title": "Samosa (2 pcs)",
-                "price": "19",
+                "image": "/img/menu/mango-curry.jpg",
+                "title": "Mango Curry",
+                "price": "40",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Crispy pastry filled with spiced potatoes and peas.",
+                "text": "Velvety mango sauce with cashews and cream. Paneer 40 | Chicken 43 | Prawns 53 zł.",
+                "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
+            },
+            {
+                "image": "/img/menu/samosa.jpg",
+                "title": "Samosa",
+                "price": "16",
+                "currency": "zł",
+                "rating": 5,
+                "text": "Fried pastry filled with potatoes, peas, and cashews. Served with chutney.",
                 "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
             },
             {
-                "image": "/img/menu/1.jpg",
+                "image": "/img/menu/garlic-naan.jpg",
                 "title": "Garlic Naan",
-                "price": "12",
+                "price": "13",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Freshly baked flatbread with garlic and coriander."
+                "text": "Tandoor bread with garlic and butter.",
+                "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
             }
         ],
         "bestseller": [
