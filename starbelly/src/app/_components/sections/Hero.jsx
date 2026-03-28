@@ -1,12 +1,11 @@
 "use client";
 
-import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 
 import { useEffect, useState } from "react";
 import { ScrollAnimation } from "@common/scrollAnims";
 
-const Hero = ( { type } ) => {
+const Hero = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
@@ -26,87 +25,108 @@ const Hero = ( { type } ) => {
     return (
         <>
             {/* banner */}
-            <section className="sb-banner">
-                <div className="sb-bg-1">
-                <div></div>
-                </div>
-                <div className="container">
-                <div className="row">
-                    <div className="col-lg-6">
-                    {/* main title */}
-                    <div className="sb-main-title-frame">
-                        <div className="sb-main-title">
-                        <span className="sb-suptitle sb-mb-30">{Data.subtitle}</span>
-                        {isMobile ? (
-                            <>
-                            <h1 className="sb-mb-30">Authentic<br/>Indian Cuisine<br/>in Wrocław</h1>
-                            <p className="sb-text sb-text-lg sb-mb-30">
-                                Experience the rich flavors of India
+            <section style={{
+                position: 'relative',
+                minHeight: isMobile ? '100svh' : '100vh',
+                display: 'flex',
+                alignItems: 'center',
+                overflow: 'hidden',
+            }}>
+                {/* Background photo */}
+                <div style={{
+                    position: 'absolute',
+                    inset: 0,
+                    backgroundImage: 'url(/img/hero/banner-bg.jpg)',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                    zIndex: 0,
+                }} />
+                {/* Overlay: dark on left fading to slightly lighter on right */}
+                <div style={{
+                    position: 'absolute',
+                    inset: 0,
+                    background: 'linear-gradient(to right, rgba(10,8,20,0.88) 0%, rgba(10,8,20,0.70) 55%, rgba(10,8,20,0.45) 100%)',
+                    zIndex: 1,
+                }} />
+
+                <div className="container" style={{ position: 'relative', zIndex: 2, padding: '120px 15px' }}>
+                    <div className="row">
+                        <div className="col-lg-7 col-xl-6">
+                            {/* Subtitle tag */}
+                            <div style={{
+                                display: 'inline-block',
+                                background: 'rgba(254,182,0,0.15)',
+                                border: '1px solid rgba(254,182,0,0.5)',
+                                borderRadius: '30px',
+                                padding: '6px 20px',
+                                marginBottom: '28px',
+                            }}>
+                                <span style={{
+                                    color: '#FEB600',
+                                    fontSize: '13px',
+                                    fontWeight: '600',
+                                    letterSpacing: '2px',
+                                    textTransform: 'uppercase',
+                                }}>Authentic Indian Restaurant · Wrocław</span>
+                            </div>
+
+                            {/* Main heading */}
+                            <h1 style={{
+                                color: '#fff',
+                                fontSize: isMobile ? '42px' : '62px',
+                                fontWeight: '700',
+                                lineHeight: '1.1',
+                                marginBottom: '24px',
+                                letterSpacing: '-1px',
+                            }}>
+                                {isMobile ? (
+                                    <>Authentic<br/>Indian Cuisine<br/>in <span style={{ color: '#FEB600', background: 'none', padding: 0 }}>Wrocław</span></>
+                                ) : (
+                                    <>Authentic Indian<br/>Cuisine in <span style={{ color: '#FEB600', background: 'none', padding: 0 }}>Wrocław</span></>
+                                )}
+                            </h1>
+
+                            {/* Description */}
+                            <p style={{
+                                color: 'rgba(255,255,255,0.80)',
+                                fontSize: '18px',
+                                lineHeight: '1.7',
+                                marginBottom: '40px',
+                                maxWidth: '480px',
+                            }}>
+                                Where heritage <span style={{ opacity: 0.6 }}>(विरासत)</span> meets flavor.<br/>
+                                Experience the rich aromas of tradition in every dish.
                             </p>
-                            </>
-                        ) : (
-                            <>
-                            <h1 className="sb-mb-30" dangerouslySetInnerHTML={{__html : Data.title}} />
-                            <p className="sb-text sb-text-lg sb-mb-30" dangerouslySetInnerHTML={{__html : Data.description}} />
-                            </>
-                        )}
 
-                        {/* button */}
-                        <Link href={Data.button1.link} className="sb-btn">
-                            <span className="sb-icon">
-                                <img src={Data.button1.icon} alt="icon" />
-                            </span>
-                            <span>{Data.button1.label}</span>
-                        </Link>
-                        {/* button */}
-                        <Link href={Data.button2.link} className="sb-btn sb-btn-2 sb-btn-gray">
-                            <span className="sb-icon">
-                                <img src={Data.button2.icon} alt="icon" />
-                            </span>
-                            <span>{Data.button2.label}</span>
-                        </Link>
-                        {/* button end */}
-
-                        </div>
-                    </div>
-                    {/* main title end */}
-                    </div>
-                    <div className="col-lg-6">
-                        {type == 1 ? (
-                        <div className="sb-illustration-1">
-                            <img src={Data.image.url} alt={Data.image.alt} className="sb-girl" /> 
-                            
-                            <div className="sb-cirkle-1"></div>
-                            <div className="sb-cirkle-2"></div>
-                            <div className="sb-cirkle-3"></div>
-                            <div className="sb-cirkle-4"></div>
-                            <div className="sb-cirkle-5"></div>
-
-                            <img src="/img/illustrations/3.svg" alt="phones" className="sb-pik-1" />
-                            <img src="/img/illustrations/1.svg" alt="phones" className="sb-pik-2" />
-                            <img src="/img/illustrations/2.svg" alt="phones" className="sb-pik-3" />
-                        </div>
-                        ) : (
-                        <div className="sb-ilustration-fix">
-                            <div className="sb-illustration-1-2">
-                                <img src="/img/illustrations/1.png" alt="food" className="sb-food-1" />
-                                <img src="/img/illustrations/2.png" alt="food" className="sb-food-2" />
-                                <img src="/img/illustrations/3.png" alt="food" className="sb-food-3" />
-
-                                <div className="sb-cirkle-1"></div>
-                                <div className="sb-cirkle-2"></div>
-                                <div className="sb-cirkle-3"></div>
-                                <div className="sb-cirkle-4"></div>
-                                <div className="sb-cirkle-5"></div>
-                                
-                                <img src="/img/illustrations/3.svg" alt="phones" className="sb-pik-1" />
-                                <img src="/img/illustrations/1.svg" alt="phones" className="sb-pik-2" />
-                                <img src="/img/illustrations/2.svg" alt="phones" className="sb-pik-3" />
+                            {/* Buttons */}
+                            <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                                <Link href="/menu" className="sb-btn">
+                                    <span className="sb-icon">
+                                        <img src="/img/ui/icons/menu.svg" alt="menu" />
+                                    </span>
+                                    <span>Our menu</span>
+                                </Link>
+                                <Link href="/about" style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '10px',
+                                    padding: '14px 28px',
+                                    border: '2px solid rgba(255,255,255,0.5)',
+                                    borderRadius: '50px',
+                                    color: '#fff',
+                                    fontSize: '15px',
+                                    fontWeight: '600',
+                                    textDecoration: 'none',
+                                    transition: 'border-color 0.3s, background 0.3s',
+                                }}
+                                onMouseOver={e => { e.currentTarget.style.borderColor = '#FEB600'; e.currentTarget.style.color = '#FEB600'; }}
+                                onMouseOut={e => { e.currentTarget.style.borderColor = 'rgba(255,255,255,0.5)'; e.currentTarget.style.color = '#fff'; }}
+                                >
+                                    <span>About us</span>
+                                </Link>
                             </div>
                         </div>
-                        )}
                     </div>
-                </div>
                 </div>
             </section>
             {/* banner end */}
