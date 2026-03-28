@@ -1,0 +1,8 @@
+connectorId: example
+generate:
+  javascriptSdk:
+    - outputDir: ../../starbelly/src/dataconnect-generated
+      package: "@dataconnect/generated"
+      packageJsonDir: ../../starbelly
+      react: true
+      angular: false

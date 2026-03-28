@@ -2,36 +2,12 @@
 
 import React from "react";
 import AppData from "@data/app.json";
-import Link from "next/link";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ContactMapSection from "@components/sections/ContactMap";
 
 const Contact = () => {
   return (
     <>
-      {/* Page header */}
-      <section className="sb-banner sb-banner-color">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-8">
-              <div className="sb-main-title-frame">
-                <div className="sb-main-title">
-                  <span className="sb-suptitle sb-mb-30">Contact</span>
-                  <h1 className="sb-mb-30">Visit Us in <span>Wrocław</span></h1>
-                  <p className="sb-text sb-text-lg sb-mb-30">
-                    We'd love to welcome you. Find us at Komuny Paryskiej 45/2U or reach out directly — we're always happy to help.
-                  </p>
-                  <ul className="sb-breadcrumbs">
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Info row: location, hours, contact */}
       <ContactInfoSection />
 

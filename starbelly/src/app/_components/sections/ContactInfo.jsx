@@ -4,7 +4,7 @@ const ContactInfoSection = () => {
   return (
     <>
         {/* contact info */}
-        <section className="sb-p-90-30">
+        <section className="sb-p-90-30" style={{ paddingTop: '120px' }}>
             <div className="container">
                 <div className="row">
                     {Data.items.map((item, key) => (
