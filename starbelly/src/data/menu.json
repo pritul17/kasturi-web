@@ -163,10 +163,53 @@
         {
           "image": "/img/menu/mix-veg-kadai.jpg",
           "title": "Mix Veg Kadai",
-          "price": "37",
+          "price": "35",
           "currency": "zł",
           "rating": 5,
-          "text": "Seasonal vegetables and paneer cooked in spiced tomato gravy.",
+          "text": "Mixed vegetables in traditional kadai sauce with onion-tomato base and cashews. Paneer 35 | Tofu 35 zł.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        }
+      ]
+    },
+    {
+      "name": "Plant-based",
+      "slug": "plant-based",
+      "description": "Served with basmati rice. Can be swapped for Indian bread or Jeera Rice for an extra charge.",
+      "items": [
+        {
+          "image": "/img/menu/daal.jpg",
+          "title": "Moong Masala",
+          "price": "33",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Mung beans simmered in creamy onion-tomato sauce with Indian spices.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/daal.jpg",
+          "title": "Chana Masala",
+          "price": "35",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Chickpeas in a thick, richly spiced curry with a hearty texture.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/daal.jpg",
+          "title": "Daal",
+          "price": "32",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Smooth, creamy lentils with a soothing and mild character.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/daal-tadka.jpg",
+          "title": "Daal Tadka",
+          "price": "35",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Lentils finished with aromatic ghee, chili, and curry leaves.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
@@ -264,6 +307,15 @@
       "slug": "sides",
       "description": "Accompaniments and extras to complement your meal.",
       "items": [
+        {
+          "image": "/img/menu/samosa.jpg",
+          "title": "Papad",
+          "price": "7",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Thin, crispy lentil wafer. Served with sauce.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
         {
           "image": "/img/menu/sooki-bhaji.jpg",
           "title": "Sooki Bhaji",
@@ -379,6 +431,70 @@
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Espresso",
+          "price": "8",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Single 30ml 8 zł | Doppio 60ml 10 zł. Specialty coffee, freshly roasted in Wrocław."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Americano",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "170ml. Espresso with hot water. Milk +1 zł | plant milk +2 zł."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Cappuccino",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "180ml. Classic espresso with steamed milk and foam."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Masala Cappuccino",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "180ml. Cappuccino with a signature house spice blend."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Flat White",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "180ml. Smooth espresso with velvety steamed milk."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Latte",
+          "price": "16",
+          "currency": "zł",
+          "rating": 5,
+          "text": "280ml. Mild espresso with steamed milk."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Latte Macchiato",
+          "price": "16",
+          "currency": "zł",
+          "rating": 5,
+          "text": "250ml. Layered espresso and steamed milk."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Orange Espresso",
+          "price": "18",
+          "currency": "zł",
+          "rating": 5,
+          "text": "250ml. Double espresso with fresh orange juice, served over ice."
+        },
+        {
           "image": "/img/menu/mango-lassi.jpg",
           "title": "Masala Chai",
           "price": "14",
@@ -393,24 +509,60 @@
           "price": "13",
           "currency": "zł",
           "rating": 5,
-          "text": "Warming ginger-orange infusion. 270 ml / 500 ml 17 zł.",
+          "text": "Warming ginger-orange infusion. 270ml / 500ml 17 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
-          "title": "Masala Cappuccino",
-          "price": "14",
+          "title": "Ginger-Orange Tea",
+          "price": "15",
           "currency": "zł",
           "rating": 5,
-          "text": "Cappuccino with a signature house spice blend. 180 ml."
+          "text": "Warming ginger and orange infusion. 250ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
-          "title": "Orange Espresso",
-          "price": "18",
+          "title": "Tea Selection",
+          "price": "12",
           "currency": "zł",
           "rating": 5,
-          "text": "Double espresso with freshly squeezed orange juice, served over ice. 250 ml."
+          "text": "270ml. Black, green, or fruit tea.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Fresh Orange Juice",
+          "price": "16",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Freshly squeezed orange juice. 250ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Mineral Water",
+          "price": "8",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Still or sparkling. 330ml 8 zł / 700ml 14 zł.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Beer — Miastolas Brewery",
+          "price": "ask staff",
+          "currency": "",
+          "rating": 5,
+          "text": "500ml. Local craft beer from Wrocław. Ask staff for today's selection."
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Indian Beer",
+          "price": "ask staff",
+          "currency": "",
+          "rating": 5,
+          "text": "330ml. Ask staff for today's selection."
         }
       ]
     },

@@ -63,11 +63,12 @@ const Hero = () => {
                             }}>
                                 <span style={{
                                     color: '#FEB600',
-                                    fontSize: '13px',
+                                    fontSize: isMobile ? '11px' : '13px',
                                     fontWeight: '600',
-                                    letterSpacing: '2px',
+                                    letterSpacing: isMobile ? '1px' : '2px',
                                     textTransform: 'uppercase',
-                                }}>Authentic Indian Restaurant · Wrocław</span>
+                                    whiteSpace: 'nowrap',
+                                }}>Authentic Indian · Wrocław</span>
                             </div>
 
                             {/* Main heading */}
