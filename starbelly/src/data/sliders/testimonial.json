@@ -1,0 +1,67 @@
+{
+    "title": "What Our <span>Customers Say</span>",
+    "description": "Real reviews from our valued guests.<br>5.0 rating on Google!",
+    "button": {
+        "link": "https://www.google.com/maps/search/?api=1&query=KASTURI+kuchnia+indyjska+Komuny+Paryskiej+45+Wrocław",
+        "icon": "/img/ui/icons/arrow.svg",
+        "label": "View Google Reviews"
+    },
+    "items": [
+        {
+            "title": "Authentic Indian Food",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/1.jpg",
+            "text": "A small but perfectly formed Indian Restaurant within walking distance to Wroclaw town centre, serving authentic Indian food and drinks. I truly enjoyed the meal, personal service, relaxed and friendly ambience. Highly recommended."
+        },
+        {
+            "title": "Amazing Experience!",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/2.jpg",
+            "text": "I was in Wrocław for 3 days and I ate here for all 3 days! Definitely good portion comparing to the price and quality they provide. They use natural ingredients and don't use any artificial colours. I highly recommend this place!"
+        },
+        {
+            "title": "Best Combination",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/3.jpg",
+            "text": "Moong masala with garlic naan is the best combination I had. Delicious dry fruit lassi! I would like to visit again and again."
+        },
+        {
+            "title": "Best Indian Food",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/4.jpg",
+            "text": "The best Indian food! Great coffee too! Dogs are also welcome here. Highly recommended!"
+        },
+        {
+            "title": "Natural Ingredients",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/1.jpg",
+            "text": "They use natural ingredients without artificial colors. After eating at most restaurants I feel sick, but here it was very good. Good food is very important for me during travel."
+        },
+        {
+            "title": "Perfect Service",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/2.jpg",
+            "text": "Personal service, relaxed and friendly ambience. Would happily eat there on my own. The quality and authenticity of the food is outstanding!"
+        },
+        {
+            "title": "Must Visit Place",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/3.jpg",
+            "text": "Amazing experience, loved it. Must visit place. Definitely good portions and quality. Will definitely come back during my next trip."
+        },
+        {
+            "title": "Authentic & Fresh",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/4.jpg",
+            "text": "Authentic Indian cuisine in Wrocław. Fresh ingredients, perfect spice levels, and generous portions. Coffee from Mała Czarna is excellent too!"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+// Kasturi Brand Colors - Fixed Text Colors
+$c1: #231E41;                      // Dark text (keep original for readability)
+$c1t: rgba(35,30,65,.9);          // Dark transparent
+
+$c2: #3F4F2A;                      // Kasturi primary green (backgrounds, borders)
+$c2t: rgba(63,79,42,.9);          // Green transparent
+
+$c3: #F9FAFC;                      // Light background
+$c4: #FFFFFF;                      // White
+$c4t: rgba(255,255,255,.92);      // White transparent
+
+$c5: #FEB600;                      // Kasturi golden yellow (accents, buttons)
+$c6: #F9FAFC;                      // Light background
+
+// Transitions
+$tr: .3s ease-in-out;
+$tr-lg: .4s ease-in-out;

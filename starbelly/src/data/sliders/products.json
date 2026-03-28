@@ -1,0 +1,9 @@
+{
+    "title": "Our <span>Popular</span> Dishes",
+    "description": "Discover our most loved authentic Indian specialties,<br>crafted with traditional recipes and fresh ingredients.",
+    "button": {
+        "link": "/menu",
+        "icon": "/img/ui/icons/menu.svg",
+        "label": "View Full Menu"
+    }
+}

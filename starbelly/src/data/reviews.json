@@ -1,0 +1,67 @@
+{
+    "title": "What Our <span>Customers Say</span>",
+    "description": "Real reviews from our valued guests.<br>Experience authentic Indian cuisine in Wrocław.",
+    "button": {
+        "link": "https://www.google.com/maps/place/KASTURI+kuchnia+indyjska/@51.103704,17.045549,15z/data=!4m6!3m5!1s0x0:0x0!8m2!3d51.103704!4d17.045549!16s",
+        "icon": "/img/ui/icons/arrow.svg",
+        "label": "View All Reviews"
+    },
+    "items": [
+        {
+            "title": "Authentic Indian Flavors!",
+            "name": "Marta K.",
+            "rating": 5,
+            "image": "/img/faces/1.jpg",
+            "text": "The best Indian food in Wrocław! Butter chicken was incredibly rich and flavorful. The naan bread is freshly made and perfect. Friendly staff and cozy atmosphere. Will definitely come back!"
+        },
+        {
+            "title": "Amazing Biryani",
+            "name": "Tomasz W.",
+            "rating": 5,
+            "image": "/img/faces/2.jpg",
+            "text": "Finally found authentic Indian cuisine in Poland! The chicken biryani was perfectly spiced and aromatic. Portions are generous and prices are reasonable. The masala chai is a must-try!"
+        },
+        {
+            "title": "Vegetarian Paradise",
+            "name": "Anna S.",
+            "rating": 5,
+            "image": "/img/faces/3.jpg",
+            "text": "Excellent vegetarian options! Tried palak paneer and dal makhani - both were delicious and authentic. Staff is very knowledgeable about ingredients. Great place for vegetarians and vegans!"
+        },
+        {
+            "title": "Best Tandoori in Town",
+            "name": "Piotr M.",
+            "rating": 5,
+            "image": "/img/faces/4.jpg",
+            "text": "The tandoori chicken is phenomenal! Perfectly marinated and cooked. The spice level was just right. Great location near city center and the service is always friendly and efficient."
+        },
+        {
+            "title": "Highly Recommend!",
+            "name": "Karolina B.",
+            "rating": 5,
+            "image": "/img/faces/1.jpg",
+            "text": "Discovered this gem last month and have been back three times already! Every dish we tried was authentic and delicious. The samosas are crispy perfection. Kasturi is now our go-to for Indian food!"
+        },
+        {
+            "title": "Wonderful Experience",
+            "name": "Jan P.",
+            "rating": 5,
+            "image": "/img/faces/2.jpg",
+            "text": "Great food, great service, great prices! The curry was rich and flavorful with perfect spice levels. They even have coffee from Mała Czarna. Perfect spot for lunch or dinner!"
+        },
+        {
+            "title": "Authentic & Fresh",
+            "name": "Magdalena L.",
+            "rating": 5,
+            "image": "/img/faces/3.jpg",
+            "text": "You can taste the quality and freshness in every bite. The lamb rogan josh was tender and perfectly spiced. Staff is welcoming and helpful with recommendations. A true taste of India in Wrocław!"
+        },
+        {
+            "title": "My Favorite Restaurant",
+            "name": "Marcin D.",
+            "rating": 5,
+            "image": "/img/faces/4.jpg",
+            "text": "I eat here at least twice a week! Consistent quality, generous portions, and always delicious. The garlic naan and butter masala combination is unbeatable. Kasturi never disappoints!"
+        }
+    ]
+}

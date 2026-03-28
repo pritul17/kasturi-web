@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "num": "01",
+            "title": "Our Location",
+            "text": "Komuny Paryskiej 45/2U, 50-451 Wrocław, Poland"
+        },
+        {
+            "num": "02",
+            "title": "Opening Hours",
+            "text": "Monday - Sunday: 12:00 PM - 10:00 PM (Closed on holidays)"
+        },
+        {
+            "num": "03",
+            "title": "Contact Us",
+            "text": "Phone: +48 721 770 999 | Email: info@kasturi.pl | Instagram: @kasturi_wroclaw"
+        }
+    ]
+}

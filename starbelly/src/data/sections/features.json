@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "num": "01",
+            "title": "Near City Center",
+            "text": "Conveniently located at Komuny Paryskiej 45, just 10 minutes walk from the Old Town. Easy to reach for lunch, dinner, or a coffee break."
+        },
+        {
+            "num": "02",
+            "title": "Fresh Ingredients",
+            "text": "Traditional Indian spices imported directly from India, combined with the freshest local produce. Every dish is prepared daily with authentic recipes."
+        },
+        {
+            "num": "03",
+            "title": "Multiple Service Options",
+            "text": "Enjoy our food your way - in our cozy restaurant, order for takeaway, or have it delivered straight to your door through popular delivery platforms."
+        },
+        {
+            "num": "04",
+            "title": "Vegetarian & Vegan Options",
+            "text": "Extensive plant-based menu featuring traditional Indian vegetarian dishes. All dietary preferences are welcome with clearly marked options."
+        },
+        {
+            "num": "05",
+            "title": "Unique Regional Specialties",
+            "text": "Discover authentic Indian street food and regional dishes you won't find elsewhere in Wrocław. From tandoori to aromatic curries and fresh naan."
+        }
+    ]
+}

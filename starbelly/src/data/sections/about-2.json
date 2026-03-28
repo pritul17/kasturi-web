@@ -1,0 +1,12 @@
+{
+    "title": "Authentic Indian Cuisine <br>in the Heart of Wrocław",
+    "description": "<p>KASTURI brings the true flavors of India to Wrocław. Our name, 'Kasturi,' means musk deer in Hindi – a symbol of something rare, precious, and deeply aromatic. We serve classic Indian dishes, aromatic curries, freshly baked naan, and unique regional specialties you won't find anywhere else in Wrocław.</p><p>Every dish is prepared with fresh, authentic ingredients and traditional recipes. We complement our cuisine with delicious coffee from local Wrocław roastery Mała Czarna, Indian beverages, and desserts. Our cozy atmosphere and friendly service make every visit special. Dine-in, takeaway, or delivery – experience the real taste of India at KASTURI!</p>",
+    "image": {
+        "url": "/img/gallery/2.jpg",
+        "alt": "Kasturi Restaurant"
+    },
+    "number": {
+        "value": "50+",
+        "label": "Authentic Recipes"
+    }
+}

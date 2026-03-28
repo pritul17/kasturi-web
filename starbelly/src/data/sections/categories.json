@@ -1,0 +1,34 @@
+{
+    "title": "Explore Our <span>Menu</span>",
+    "description": "Authentic Indian flavors made with traditional recipes<br>and the finest natural ingredients.",
+    "button": {
+        "link": "/menu",
+        "label": "View Full Menu"
+    },
+    "items": [
+        {
+            "image": "/img/categories/1.png",
+            "title": "Starters",
+            "text": "Crispy samosas, pakoras and authentic Indian appetizers.",
+            "link": "/menu#starters"
+        },
+        {
+            "image": "/img/categories/2.png",
+            "title": "Main Dishes",
+            "text": "Aromatic curries, biryanis and traditional Indian dishes.",
+            "link": "/menu#main-dishes"
+        },
+        {
+            "image": "/img/categories/3.png",
+            "title": "Drinks",
+            "text": "Fresh lassi, masala chai and specialty Indian beverages.",
+            "link": "/menu#drinks"
+        },
+        {
+            "image": "/img/categories/4.png",
+            "title": "Desserts",
+            "text": "Traditional Indian sweets and delicious dessert options.",
+            "link": "/menu#desserts"
+        }
+    ]
+}

@@ -1,0 +1,351 @@
+{
+  "categories": [
+    {
+      "name": "Starters",
+      "slug": "starters",
+      "description": "Traditional Indian appetizers and tandoori specialties.",
+      "items": [
+        {
+          "image": "/img/menu/samosa.jpg",
+          "title": "Samosa",
+          "price": "15",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Crispy pastry filled with spiced potatoes and green peas. Served with salad and chutney.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/samosa-chaat.jpg",
+          "title": "Samosa Chaat",
+          "price": "20",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Crispy samosa served with vegetables, chutneys, yogurt, chickpea crisps, and coriander."
+        },
+        {
+          "image": "/img/menu/onion-bhaji.jpg",
+          "title": "Onion Bhaji",
+          "price": "15",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Golden fried onion rings seasoned with aromatic spices. Served with salad and chutney.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/chicken-tikka.jpg",
+          "title": "Chicken Tikka",
+          "price": "32",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Chicken pieces grilled in tandoor with aromatic Indian spices. Served with salad and mint chutney."
+        },
+        {
+          "image": "/img/menu/paneer-tikka.jpg",
+          "title": "Paneer Tikka",
+          "price": "28",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Grilled Indian cottage cheese with peppers and onions in spiced yogurt marinade.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        }
+      ]
+    },
+    {
+      "name": "Main Dishes",
+      "slug": "main-dishes",
+      "description": "Rich and flavorful Indian curries made with aromatic spices.",
+      "items": [
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Chicken Tikka Masala",
+          "price": "37",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Creamy tomato-based curry with cashew nuts and spices. Choice of chicken."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Lamb Tikka Masala",
+          "price": "44",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Rich and creamy tomato curry with tender lamb pieces."
+        },
+        {
+          "image": "/img/menu/prawn-tikka-masala.jpg",
+          "title": "Prawn Tikka Masala",
+          "price": "47",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Succulent prawns cooked in creamy tomato and cashew gravy."
+        },
+        {
+          "image": "/img/menu/butter-chicken.jpg",
+          "title": "Butter Chicken",
+          "price": "38",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Tender chicken cooked in butter and tomato gravy with a blend of Indian spices."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Butter Masala with Prawns",
+          "price": "48",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Prawns cooked in rich tomato and butter sauce with aromatic spices."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Palak Chicken",
+          "price": "37",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Chicken simmered in creamy spinach sauce with Indian spices."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Palak Lamb",
+          "price": "44",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Tender lamb cooked in smooth spinach-based curry."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Palak Prawns",
+          "price": "47",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Prawns simmered in spinach gravy with Indian herbs and spices."
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Laal Maas",
+          "price": "44",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Spicy Rajasthani lamb curry cooked with red chili and aromatic spices.",
+          "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Moong Masala",
+          "price": "31",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Mung beans cooked with onion, tomato, and garlic in traditional Indian spices.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/sev-tomato.jpg",
+          "title": "Sev Tomato",
+          "price": "29",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Sweet and spicy tomato curry topped with crispy chickpea noodles.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/daal.jpg",
+          "title": "Daal",
+          "price": "29",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Creamy lentils cooked with vegetables and aromatic spices.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/daal-tadka.jpg",
+          "title": "Daal Tadka",
+          "price": "32",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Lentils topped with tempered spices and red chili on ghee.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/mix-veg-kadai.jpg",
+          "title": "Mix Veg Kadai",
+          "price": "32",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Seasonal vegetables and paneer cooked in spiced tomato gravy.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Paneer Tikka Masala",
+          "price": "35",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Paneer cooked in creamy tomato sauce with aromatic spices.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-curry.jpg",
+          "title": "Paneer Butter Masala",
+          "price": "35",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Paneer cubes cooked in buttery tomato cashew gravy.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/palak-paneer.jpg",
+          "title": "Palak Paneer",
+          "price": "34",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Paneer cooked in creamy spinach sauce with Indian spices.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "slug": "drinks",
+      "description": "Refreshing Indian beverages, lassis, and teas.",
+      "items": [
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "title": "Mango Lassi",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Creamy yogurt drink blended with ripe mango and a hint of cardamom."
+        },
+        {
+          "image": "/img/menu/dry-fruit-lassi.jpg",
+          "title": "Dry Fruit Lassi",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Yogurt drink enriched with mixed dry fruits, cashews, and almonds."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Salt Lassi",
+          "price": "9",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Refreshing salty yogurt drink with light Indian spices."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Lemonade",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Classic refreshing lemon drink.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Indian Lemonade",
+          "price": "13",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Refreshing lemonade with herbs, spices, and a hint of salt.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Indian Masala Chai",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Aromatic Indian tea brewed with milk and a blend of warming spices."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Masala Black Tea",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Indian black tea infused with cinnamon, cardamom, ginger, and cloves.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Espresso Single",
+          "price": "7",
+          "currency": "zł",
+          "rating": 4,
+          "text": "Strong single-shot espresso."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Espresso Doppio",
+          "price": "9",
+          "currency": "zł",
+          "rating": 4,
+          "text": "Double espresso for extra energy."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Americano",
+          "price": "10",
+          "currency": "zł",
+          "rating": 4,
+          "text": "Espresso with hot water for a lighter taste."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Cappuccino",
+          "price": "10",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Espresso with steamed milk and foamed milk top."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Flat White",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Smooth coffee with velvety steamed milk."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Latte",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Mild espresso with steamed milk and a touch of foam."
+        },
+        {
+          "image": "/img/menu/placeholder-drink.jpg",
+          "title": "Latte Macchiato",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Layered espresso and milk with rich flavor."
+        }
+      ]
+    },
+    {
+      "name": "Desserts",
+      "slug": "desserts",
+      "description": "Traditional Indian sweets made with love and warmth.",
+      "items": [
+        {
+          "image": "/img/menu/gulab-jamun.jpg",
+          "title": "Gulab Jamun",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Warm milk dumplings soaked in rose-cardamom sugar syrup."
+        },
+        {
+          "image": "/img/menu/placeholder-dessert.jpg",
+          "title": "Carrot Ladoo",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Sweet carrot balls with cardamom, milk, and coconut flakes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+    "image": {
+        "url": "/img/illustrations/girl.png",
+        "alt": "Kasturi Restaurant"
+    },
+    "subtitle": "",
+    "title": "Authentic Indian cuisine <br>in <span>Wrocław</span>",
+    "description": "Where heritage (विरासत) meets flavor.<br>Experience the rich aromas of tradition in every dish.",
+    "button1": {
+        "link": "/menu",
+        "icon": "/img/ui/icons/menu.svg",
+        "label": "Our menu"
+    },
+    "button2": {
+        "link": "/about",
+        "icon": "/img/ui/icons/arrow.svg",
+        "label": "About us"
+    }
+}
