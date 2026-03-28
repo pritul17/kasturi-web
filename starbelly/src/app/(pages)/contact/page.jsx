@@ -8,6 +8,9 @@ import ContactMapSection from "@components/sections/ContactMap";
 const Contact = () => {
   return (
     <>
+      {/* Spacer so content clears the fixed navbar */}
+      <div style={{ height: '100px' }} />
+
       {/* Info row: location, hours, contact */}
       <ContactInfoSection />
 
