@@ -3,347 +3,430 @@
     {
       "name": "Starters",
       "slug": "starters",
-      "description": "Traditional Indian appetizers and tandoori specialties.",
+      "description": "Handmade in our kitchen. Served with your choice of chutney.",
       "items": [
         {
           "image": "/img/menu/samosa.jpg",
           "title": "Samosa",
-          "price": "15",
+          "price": "16",
           "currency": "zł",
           "rating": 5,
-          "text": "Crispy pastry filled with spiced potatoes and green peas. Served with salad and chutney.",
+          "text": "Fried pastry filled with potatoes, peas, and cashews.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/samosa-chaat.jpg",
           "title": "Samosa Chaat",
-          "price": "20",
+          "price": "22",
           "currency": "zł",
           "rating": 5,
-          "text": "Crispy samosa served with vegetables, chutneys, yogurt, chickpea crisps, and coriander."
+          "text": "Crumbled samosa with sweet yogurt, chutney, and crispy sev.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
-          "image": "/img/menu/onion-bhaji.jpg",
-          "title": "Onion Bhaji",
-          "price": "15",
+          "image": "/img/menu/onion-ring-pakora.jpg",
+          "title": "Onion Ring Pakoda",
+          "price": "17",
           "currency": "zł",
           "rating": 5,
-          "text": "Golden fried onion rings seasoned with aromatic spices. Served with salad and chutney.",
+          "text": "Onion rings in chickpea flour batter, fried golden.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/chicken-tikka.jpg",
-          "title": "Chicken Tikka",
-          "price": "32",
+          "image": "/img/menu/paneer-pakora.jpg",
+          "title": "Paneer Pakoda",
+          "price": "22",
           "currency": "zł",
           "rating": 5,
-          "text": "Chicken pieces grilled in tandoor with aromatic Indian spices. Served with salad and mint chutney."
-        },
-        {
-          "image": "/img/menu/paneer-tikka.jpg",
-          "title": "Paneer Tikka",
-          "price": "28",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Grilled Indian cottage cheese with peppers and onions in spiced yogurt marinade.",
+          "text": "Paneer cubes in spiced chickpea flour batter, fried crispy.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     },
     {
-      "name": "Main Dishes",
-      "slug": "main-dishes",
-      "description": "Rich and flavorful Indian curries made with aromatic spices.",
+      "name": "Tandoor",
+      "slug": "tandoor",
+      "description": "Marinated and baked in a traditional tandoor oven. Served with salad and your choice of chutney. Preparation approx. 25 min.",
       "items": [
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Chicken Tikka Masala",
+          "image": "/img/menu/chicken-tikka.jpg",
+          "title": "Chicken Tikka",
+          "price": "34",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Juicy chicken pieces in yogurt marinade with Indian spices."
+        },
+        {
+          "image": "/img/menu/malai-tikka.jpg",
+          "title": "Malai Tikka",
+          "price": "36",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Chicken in a creamy cashew and cream marinade, tender and mild."
+        },
+        {
+          "image": "/img/menu/tikka-platter.jpg",
+          "title": "Tikka Platter",
+          "price": "40",
+          "currency": "zł",
+          "rating": 5,
+          "text": "A combination of classic Chicken Tikka and creamy Malai Tikka."
+        }
+      ]
+    },
+    {
+      "name": "Curry",
+      "slug": "curry",
+      "description": "Each curry is served with basmati rice. Swap for Indian bread or Jeera Rice for an additional charge. Selected curries available vegan with tofu — ask staff.",
+      "items": [
+        {
+          "image": "/img/menu/butter-chicken.jpg",
+          "title": "Butter Masala",
           "price": "37",
           "currency": "zł",
           "rating": 5,
-          "text": "Creamy tomato-based curry with cashew nuts and spices. Choice of chicken."
+          "text": "Creamy butter-tomato sauce with cashews, subtly sweet. Paneer 37 | Chicken 40 | Prawns 50 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Lamb Tikka Masala",
-          "price": "44",
+          "image": "/img/menu/korma.jpg",
+          "title": "Korma",
+          "price": "39",
           "currency": "zł",
           "rating": 5,
-          "text": "Rich and creamy tomato curry with tender lamb pieces."
+          "text": "Silky cashew and cream sauce, rich and gently sweet. Paneer 39 | Chicken 42 | Prawns 52 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
+        },
+        {
+          "image": "/img/menu/mango-curry.jpg",
+          "title": "Mango Curry",
+          "price": "40",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Velvety mango sauce with cashews and cream, fruity and sweet. Paneer 40 | Chicken 43 | Prawns 53 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         },
         {
           "image": "/img/menu/prawn-tikka-masala.jpg",
-          "title": "Prawn Tikka Masala",
-          "price": "47",
+          "title": "Tikka Masala",
+          "price": "36",
           "currency": "zł",
           "rating": 5,
-          "text": "Succulent prawns cooked in creamy tomato and cashew gravy."
+          "text": "Onion-tomato sauce with cashews and cream. Paneer 36 | Chicken 39 | Lamb 45 | Prawns 48 zł.",
+          "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
-          "image": "/img/menu/butter-chicken.jpg",
-          "title": "Butter Chicken",
-          "price": "38",
+          "image": "/img/menu/palak-paneer.jpg",
+          "title": "Palak Curry",
+          "price": "36",
           "currency": "zł",
           "rating": 5,
-          "text": "Tender chicken cooked in butter and tomato gravy with a blend of Indian spices."
+          "text": "Spinach curry with garlic, ginger, cashews, and cream. Paneer 36 | Chicken 39 | Lamb 46 | Prawns 49 zł.",
+          "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Butter Masala with Prawns",
-          "price": "48",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Prawns cooked in rich tomato and butter sauce with aromatic spices."
-        },
-        {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Palak Chicken",
+          "image": "/img/menu/jalfrezi.jpg",
+          "title": "Jalfrezi",
           "price": "37",
           "currency": "zł",
           "rating": 5,
-          "text": "Chicken simmered in creamy spinach sauce with Indian spices."
+          "text": "Bell pepper and tomato curry, lightly tangy with cashews and cream. Paneer 37 | Chicken 40 | Lamb 47 | Prawns 50 zł.",
+          "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Palak Lamb",
-          "price": "44",
+          "image": "/img/menu/methi-curry.jpg",
+          "title": "Methi Curry",
+          "price": "37",
           "currency": "zł",
           "rating": 5,
-          "text": "Tender lamb cooked in smooth spinach-based curry."
+          "text": "Subtly nutty fenugreek sauce with cashews and cream. Paneer 37 | Chicken 40 | Lamb 46 | Prawns 50 zł.",
+          "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Palak Prawns",
+          "image": "/img/menu/vindaloo.jpg",
+          "title": "Laal Maas",
           "price": "47",
           "currency": "zł",
           "rating": 5,
-          "text": "Prawns simmered in spinach gravy with Indian herbs and spices."
-        },
-        {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Laal Maas",
-          "price": "44",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Spicy Rajasthani lamb curry cooked with red chili and aromatic spices.",
+          "text": "Traditional Rajasthani lamb curry slow-cooked with chili, yogurt, and spices.",
           "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Moong Masala",
-          "price": "31",
+          "image": "/img/menu/vindaloo.jpg",
+          "title": "Vindaloo",
+          "price": "38",
           "currency": "zł",
           "rating": 5,
-          "text": "Mung beans cooked with onion, tomato, and garlic in traditional Indian spices.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
-        {
-          "image": "/img/menu/sev-tomato.jpg",
-          "title": "Sev Tomato",
-          "price": "29",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Sweet and spicy tomato curry topped with crispy chickpea noodles.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
-        {
-          "image": "/img/menu/daal.jpg",
-          "title": "Daal",
-          "price": "29",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Creamy lentils cooked with vegetables and aromatic spices.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
-        {
-          "image": "/img/menu/daal-tadka.jpg",
-          "title": "Daal Tadka",
-          "price": "32",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Lentils topped with tempered spices and red chili on ghee.",
-          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+          "text": "Fiery onion-tomato base with garlic, chili, cashews, and cream. Paneer 38 | Chicken 41 | Lamb 48 | Prawns 51 zł.",
+          "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
         },
         {
           "image": "/img/menu/mix-veg-kadai.jpg",
           "title": "Mix Veg Kadai",
-          "price": "32",
+          "price": "37",
           "currency": "zł",
           "rating": 5,
           "text": "Seasonal vegetables and paneer cooked in spiced tomato gravy.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Bread & Rice",
+      "slug": "bread-rice",
+      "description": "Traditional Indian breads from the tandoor oven and aromatic rice dishes.",
+      "items": [
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Paneer Tikka Masala",
-          "price": "35",
+          "image": "/img/menu/jeera-rice.jpg",
+          "title": "Basmati Rice",
+          "price": "7",
           "currency": "zł",
           "rating": 5,
-          "text": "Paneer cooked in creamy tomato sauce with aromatic spices.",
+          "text": "Fragrant long-grain basmati rice, included with all curries.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/jeera-rice.jpg",
+          "title": "Jeera Rice",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Basmati rice pan-fried in ghee with cumin. +5 zł upgrade from rice.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
-          "image": "/img/menu/placeholder-curry.jpg",
-          "title": "Paneer Butter Masala",
-          "price": "35",
+          "image": "/img/menu/butter-naan.jpg",
+          "title": "Plain Naan",
+          "price": "9",
           "currency": "zł",
           "rating": 5,
-          "text": "Paneer cubes cooked in buttery tomato cashew gravy.",
+          "text": "Traditional wheat bread from the tandoor. Contains milk and egg.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
-          "image": "/img/menu/palak-paneer.jpg",
-          "title": "Palak Paneer",
-          "price": "34",
+          "image": "/img/menu/butter-naan.jpg",
+          "title": "Butter Naan",
+          "price": "11",
           "currency": "zł",
           "rating": 5,
-          "text": "Paneer cooked in creamy spinach sauce with Indian spices.",
+          "text": "Tandoor bread with melted butter. +4 zł upgrade from rice.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/garlic-naan.jpg",
+          "title": "Garlic Naan",
+          "price": "13",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Tandoor bread with garlic and butter. +6 zł upgrade from rice.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/butter-naan.jpg",
+          "title": "Honey & Butter Naan",
+          "price": "13",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Tandoor bread with butter and a touch of honey. +6 zł upgrade.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/kasturi-naan.jpg",
+          "title": "Kasturi Special Naan",
+          "price": "15",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Signature naan with garlic, butter, fenugreek, and black seed. +8 zł upgrade.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/roti.jpg",
+          "title": "Roti",
+          "price": "8",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Wholegrain wheat flatbread. +2 zł upgrade from rice.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/butter-roti.jpg",
+          "title": "Butter Roti",
+          "price": "10",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Wholegrain flatbread with melted butter. +4 zł upgrade from rice.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        }
+      ]
+    },
+    {
+      "name": "Sides",
+      "slug": "sides",
+      "description": "Accompaniments and extras to complement your meal.",
+      "items": [
+        {
+          "image": "/img/menu/sooki-bhaji.jpg",
+          "title": "Sooki Bhaji",
+          "price": "12",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Potatoes sautéed with turmeric, cumin, and Indian spices.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/indian-style-cabbage.jpg",
+          "title": "Indian-Style Cabbage",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Cabbage stir-fried with bell pepper, mustard seeds, and Indian spices.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/sweet-potato-fries.jpg",
+          "title": "Sweet Potato Fries",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Sweet potato fries served with a mild yogurt dip.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/crispy-chicken.jpg",
+          "title": "Crispy Chicken",
+          "price": "24",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Crispy fried chicken pieces served with yogurt dip."
         }
       ]
     },
     {
       "name": "Drinks",
       "slug": "drinks",
-      "description": "Refreshing Indian beverages, lassis, and teas.",
+      "description": "Indian yogurt drinks, fresh lemonades, specialty coffee, and teas.",
       "items": [
         {
           "image": "/img/menu/mango-lassi.jpg",
           "title": "Mango Lassi",
-          "price": "12",
+          "price": "15",
           "currency": "zł",
           "rating": 5,
-          "text": "Creamy yogurt drink blended with ripe mango and a hint of cardamom."
+          "text": "Creamy mango with a delicate hint of coconut. 250 ml.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
           "image": "/img/menu/dry-fruit-lassi.jpg",
           "title": "Dry Fruit Lassi",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Yogurt drink enriched with mixed dry fruits, cashews, and almonds."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Salt Lassi",
-          "price": "9",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Refreshing salty yogurt drink with light Indian spices."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Lemonade",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Classic refreshing lemon drink.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Indian Lemonade",
           "price": "13",
           "currency": "zł",
           "rating": 5,
-          "text": "Refreshing lemonade with herbs, spices, and a hint of salt.",
+          "text": "Yogurt with almonds and cardamom. 250 ml.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/salt-lassi.jpg",
+          "title": "Salt Lassi",
+          "price": "10",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Refreshing, lightly salted yogurt drink with spices and fresh coriander. 250 ml.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/lemonade.jpg",
+          "title": "Classic Lemonade",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Fresh-squeezed citrus lemonade with natural spices. 330 ml / 850 ml 24 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Indian Masala Chai",
-          "price": "12",
+          "image": "/img/menu/masala-lemonade.jpg",
+          "title": "Masala Lemonade",
+          "price": "15",
           "currency": "zł",
           "rating": 5,
-          "text": "Aromatic Indian tea brewed with milk and a blend of warming spices."
+          "text": "Lemonade with salt and cumin. 330 ml / 850 ml 25 zł.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/placeholder-drink.jpg",
+          "image": "/img/menu/mango-lemonade.jpg",
+          "title": "Mango Lemonade",
+          "price": "16",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Fresh mango lemonade. 330 ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/spiced-hibiscus.jpg",
+          "title": "Spiced Hibiscus Lemonade",
+          "price": "15",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Hibiscus-based lemonade with warm spices. 330 ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/coconut-water.jpg",
+          "title": "Coconut Water",
+          "price": "15",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Natural coconut water. 330 ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "title": "Masala Chai",
+          "price": "14",
+          "currency": "zł",
+          "rating": 5,
+          "text": "Traditionally brewed tea with spices and milk. 170 ml.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
           "title": "Masala Black Tea",
-          "price": "14",
+          "price": "13",
           "currency": "zł",
           "rating": 5,
-          "text": "Indian black tea infused with cinnamon, cardamom, ginger, and cloves.",
+          "text": "Warming ginger-orange infusion. 270 ml / 500 ml 17 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Espresso Single",
-          "price": "7",
-          "currency": "zł",
-          "rating": 4,
-          "text": "Strong single-shot espresso."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Espresso Doppio",
-          "price": "9",
-          "currency": "zł",
-          "rating": 4,
-          "text": "Double espresso for extra energy."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Americano",
-          "price": "10",
-          "currency": "zł",
-          "rating": 4,
-          "text": "Espresso with hot water for a lighter taste."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Cappuccino",
-          "price": "10",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Espresso with steamed milk and foamed milk top."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Flat White",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Smooth coffee with velvety steamed milk."
-        },
-        {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Latte",
+          "image": "/img/menu/mango-lassi.jpg",
+          "title": "Masala Cappuccino",
           "price": "14",
           "currency": "zł",
           "rating": 5,
-          "text": "Mild espresso with steamed milk and a touch of foam."
+          "text": "Cappuccino with a signature house spice blend. 180 ml."
         },
         {
-          "image": "/img/menu/placeholder-drink.jpg",
-          "title": "Latte Macchiato",
-          "price": "14",
+          "image": "/img/menu/mango-lassi.jpg",
+          "title": "Orange Espresso",
+          "price": "18",
           "currency": "zł",
           "rating": 5,
-          "text": "Layered espresso and milk with rich flavor."
+          "text": "Double espresso with freshly squeezed orange juice, served over ice. 250 ml."
         }
       ]
     },
     {
       "name": "Desserts",
       "slug": "desserts",
-      "description": "Traditional Indian sweets made with love and warmth.",
+      "description": "Traditional Indian sweets made with love.",
       "items": [
         {
           "image": "/img/menu/gulab-jamun.jpg",
           "title": "Gulab Jamun",
-          "price": "12",
+          "price": "15",
           "currency": "zł",
           "rating": 5,
-          "text": "Warm milk dumplings soaked in rose-cardamom sugar syrup."
-        },
-        {
-          "image": "/img/menu/placeholder-dessert.jpg",
-          "title": "Carrot Ladoo",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Sweet carrot balls with cardamom, milk, and coconut flakes."
+          "text": "Fried milk-dough balls in cardamom and rose syrup. Served warm. (2 pcs.)",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     }
