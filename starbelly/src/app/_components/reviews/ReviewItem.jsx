@@ -13,12 +13,6 @@ const ReviewItem = ({ item, index, marginBottom }) => {
             </ul>
         </div>
         <p className="sb-text sb-mb-15">{item.text}</p>
-        <div className="sb-author-frame">
-            <div className="sb-avatar-frame">
-                <img src={item.image} alt={item.name} />
-            </div>
-            <h4>{item.name}</h4>
-        </div>
       </div>
     </>
   );

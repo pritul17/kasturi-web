@@ -27,6 +27,8 @@ import '@styles/scss/style.scss';
 import "./globals.css";
 
 import ScrollbarProgress from "@layouts/scrollbar-progress/Index";
+import CookieBanner from "@components/CookieBanner";
+import { LanguageProvider } from "@common/LanguageContext";
 
 import AppData from "@data/app.json";
 
@@ -43,13 +45,19 @@ const Layouts = ({
 }) => {
   return (
     <html lang="en" className={`${rubik.variable} ${monoton.variable}`}>
+      <head>
+        <link rel="preload" href="/img/hero/banner-bg-compressed.mp4" as="video" type="video/mp4" />
+      </head>
       <body>
         {/* app wrapper */}
-        <div className="sb-app">
-          {children}
+        <LanguageProvider>
+          <div className="sb-app">
+            {children}
 
-          <ScrollbarProgress />
-        </div>
+            <ScrollbarProgress />
+            <CookieBanner />
+          </div>
+        </LanguageProvider>
         {/* app wrapper end */}
       </body>
     </html>

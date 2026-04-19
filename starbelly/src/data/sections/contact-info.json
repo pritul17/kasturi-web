@@ -2,18 +2,27 @@
     "items": [
         {
             "num": "01",
+            "icon": "fas fa-map-marker-alt",
             "title": "Our Location",
-            "text": "Komuny Paryskiej 45/2U, 50-451 Wrocław, Poland"
+            "title_pl": "Nasza lokalizacja",
+            "text": "Komuny Paryskiej 45/2U, 50-451 Wrocław, Poland",
+            "text_pl": "Komuny Paryskiej 45/2U, 50-451 Wrocław, Polska"
         },
         {
             "num": "02",
+            "icon": "fas fa-clock",
             "title": "Opening Hours",
-            "text": "Monday - Sunday: 12:00 PM - 10:00 PM (Closed on holidays)"
+            "title_pl": "Godziny otwarcia",
+            "text": "Monday - Sunday: 12:00 PM - 8:00 PM",
+            "text_pl": "Poniedziałek – Niedziela: 12:00 – 20:00"
         },
         {
             "num": "03",
+            "icon": "fas fa-envelope",
             "title": "Contact Us",
-            "text": "Phone: +48 721 770 999 | Email: info@kasturi.pl | Instagram: @kasturi_wroclaw"
+            "title_pl": "Kontakt",
+            "text": "Phone: +48 721 770 999 | Email: kasturi.wroclaw@gmail.com | Instagram: @kasturi_wroclaw",
+            "text_pl": "Tel.: +48 721 770 999 | E-mail: kasturi.wroclaw@gmail.com | Instagram: @kasturi_wroclaw"
         }
     ]
 }

@@ -19,34 +19,36 @@
         },
         "menu": [
             {
-                "label": "Home",
-                "link": "/",
-                "children": 0
-            },
-            {
                 "label": "About Us",
+                "label_pl": "O nas",
                 "link": "/about",
                 "children": 0
             },
             {
                 "label": "Menu",
+                "label_pl": "Menu",
                 "link": "/menu",
                 "children": 0
             },
             {
                 "label": "Reviews",
+                "label_pl": "Opinie",
                 "link": "/reviews",
                 "children": 0
             },
             {
                 "label": "Contact",
+                "label_pl": "Kontakt",
                 "link": "/contact",
                 "children": 0
             }
         ]
     },
     "footer": {
-        "copy": "© 2025 Kasturi. All rights reserved."
+        "copy": "© 2025 Kasturi. All rights reserved.",
+        "copy_pl": "© 2025 Kasturi. Wszelkie prawa zastrzeżone.",
+        "privacy": "Privacy Policy",
+        "privacy_pl": "Polityka prywatności"
     },
     "social": [
         {
@@ -65,7 +67,7 @@
             "icon": "fab fa-tripadvisor"
         },
         {
-            "link": "https://maps.app.goo.gl/PcshpJH8BD6sy6fS8",
+            "link": "https://www.google.com/maps/place/KASTURI+kuchnia+indyjska/@51.1015772,17.0469246,17z/data=!3m1!4b1!4m6!3m5!1s0x470fc3032f60f75b:0x256ddd8eccaa3e64!8m2!3d51.1015772!4d17.0469246!16s%2Fg%2F11x7jszq5m",
             "title": "Google Maps",
             "icon": "fas fa-map-marker-alt"
         }

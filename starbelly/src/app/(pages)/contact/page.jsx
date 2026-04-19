@@ -4,27 +4,39 @@ import React from "react";
 import AppData from "@data/app.json";
 import ContactInfoSection from "@components/sections/ContactInfo";
 import ContactMapSection from "@components/sections/ContactMap";
+import { useLanguage } from "@common/LanguageContext";
+
+const ui = {
+  en: {
+    heading: "Reach Us Directly",
+    subheading: "Call us for reservations or connect on social media.",
+    callLabel: "Call us",
+  },
+  pl: {
+    heading: "Skontaktuj się z nami",
+    subheading: "Zadzwoń po rezerwację lub odwiedź nas w mediach społecznościowych.",
+    callLabel: "Zadzwoń",
+  },
+};
 
 const Contact = () => {
+  const { lang } = useLanguage();
+  const tx = ui[lang];
+
   return (
     <>
-      {/* Spacer so content clears the fixed navbar */}
-      <div style={{ height: '100px' }} />
+      <div className="sb-nav-spacer" />
 
-      {/* Info row: location, hours, contact */}
-      <ContactInfoSection />
-
-      {/* Reach us section */}
-      <section className="sb-p-90-0">
+      <section className="sb-p-90-30">
         <div className="container">
-          <div className="sb-group-title sb-mb-60">
-            <div className="sb-left sb-mb-30">
-              <h2 className="sb-mb-15">Reach Us Directly</h2>
-              <p className="sb-text">Call us for reservations or connect on social media.</p>
+          <div className="sb-group-title sb-mb-30">
+            <div className="sb-left sb-mb-15">
+              <h2 className="sb-mb-15">{tx.heading}</h2>
+              <p className="sb-text">{tx.subheading}</p>
             </div>
           </div>
 
-          <div className="row sb-mb-60">
+          <div className="row sb-mb-30">
             {/* Phone CTA */}
             <div className="col-lg-4 sb-mb-30">
               <a href="tel:+48721770999" style={{
@@ -49,7 +61,7 @@ const Contact = () => {
                   <i className="fas fa-phone" style={{ color: '#FEB600', fontSize: '20px' }} />
                 </div>
                 <div>
-                  <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '13px', margin: '0 0 4px', textTransform: 'uppercase', letterSpacing: '1px' }}>Call us</p>
+                  <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '13px', margin: '0 0 4px', textTransform: 'uppercase', letterSpacing: '1px' }}>{tx.callLabel}</p>
                   <p style={{ color: '#fff', fontSize: '20px', fontWeight: '700', margin: 0 }}>+48 721 770 999</p>
                 </div>
               </a>
@@ -84,7 +96,10 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map */}
+      <div style={{ marginTop: '-60px' }}>
+        <ContactInfoSection />
+      </div>
+
       <ContactMapSection />
     </>
   );

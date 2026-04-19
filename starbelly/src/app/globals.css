@@ -1,0 +1,518 @@
+/* ==========================================
+   KASTURI — Global: yellow background always dark text
+   ========================================== */
+
+/* Buttons with yellow bg */
+.sb-btn,
+.sb-btn span,
+.sb-btn i {
+  color: #1a1a1a !important;
+}
+
+/* Price tags on menu items */
+.sb-price,
+.sb-price sub {
+  color: #1a1a1a !important;
+}
+
+/* Badge labels: mild/yellow always dark */
+.sb-badge {
+  color: #1a1a1a;
+}
+.sb-badge.sb-mild,
+.sb-badge.sb-mild i {
+  color: #1a1a1a !important;
+}
+.sb-badge.sb-vegan,
+.sb-badge.sb-vegan i,
+.sb-badge.sb-vegetarian,
+.sb-badge.sb-vegetarian i,
+.sb-badge.sb-medium,
+.sb-badge.sb-medium i,
+.sb-badge.sb-hot,
+.sb-badge.sb-hot i {
+  color: #fff !important;
+}
+
+/* Language toggle active btn */
+.sb-buttons-frame button[style*="background: #FEB600"],
+.sb-buttons-frame button[style*="background:#FEB600"] {
+  color: #1a1a1a !important;
+}
+
+/* Filter link active state */
+.sb-filter-link.sb-active {
+  color: #1a1a1a !important;
+}
+
+/* ==========================================
+   KASTURI — Dark / Night theme
+   Darker palette for better contrast + text-shadow for readability
+   Activated via html[data-theme="dark"]
+   ========================================== */
+
+html[data-theme="dark"] body {
+  background-color: #152115;
+  color: #a8b890;
+}
+
+html[data-theme="dark"] .sb-app {
+  background-color: #152115;
+}
+
+/* Headings — darker warm parchment + subtle text-shadow for depth */
+html[data-theme="dark"] h1,
+html[data-theme="dark"] h2,
+html[data-theme="dark"] h3,
+html[data-theme="dark"] h4,
+html[data-theme="dark"] h5,
+html[data-theme="dark"] h6,
+html[data-theme="dark"] .sb-h1,
+html[data-theme="dark"] .sb-h2,
+html[data-theme="dark"] .sb-h3,
+html[data-theme="dark"] .sb-h4,
+html[data-theme="dark"] .sb-h5,
+html[data-theme="dark"] .sb-h6 {
+  color: #c4b890;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading span highlights */
+html[data-theme="dark"] h1 span,
+html[data-theme="dark"] h2 span {
+  background-color: transparent !important;
+  color: #FEB600 !important;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+/* Body paragraph text — slightly darker for hierarchy */
+html[data-theme="dark"] .sb-text {
+  color: #7a9a68;
+}
+
+html[data-theme="dark"] .sb-suptitle {
+  background-color: #1e3020;
+  color: #a8b890;
+}
+
+/* ── Navigation bar ─────────────────────── */
+html[data-theme="dark"] .sb-top-bar-frame {
+  border-color: rgba(40, 70, 40, 0.5) !important;
+}
+
+html[data-theme="dark"] .sb-top-bar-bg {
+  background-color: rgba(16, 28, 16, 0.97) !important;
+}
+
+/* Desktop nav links */
+html[data-theme="dark"] .sb-nav .sb-navigation li a {
+  color: #a8b890 !important;
+}
+
+html[data-theme="dark"] .sb-nav .sb-navigation li.sb-active > a,
+html[data-theme="dark"] .sb-nav .sb-navigation li a:hover {
+  color: #FEB600 !important;
+}
+
+/* ── Mobile nav overlay ─────────────────── */
+@media (max-width: 992px) {
+  html[data-theme="dark"] .sb-nav .sb-navigation {
+    background-color: rgba(14, 24, 14, 0.99) !important;
+    border-color: rgba(40, 70, 40, 0.4) !important;
+  }
+
+  html[data-theme="dark"] .sb-nav .sb-navigation li a {
+    color: #a8b890 !important;
+  }
+
+  html[data-theme="dark"] .sb-nav .sb-navigation li.sb-active > a {
+    color: #FEB600 !important;
+  }
+}
+
+/* Language toggle border in dark mode */
+html[data-theme="dark"] .sb-buttons-frame > div {
+  border-color: rgba(80, 120, 80, 0.4) !important;
+}
+
+/* ── Hamburger button lines ──────────────── */
+html[data-theme="dark"] .sb-menu-btn span,
+html[data-theme="dark"] .sb-menu-btn span::before,
+html[data-theme="dark"] .sb-menu-btn span::after {
+  background: #c4b890 !important;
+}
+
+/* ── Footer ─────────────────────────────── */
+html[data-theme="dark"] footer {
+  background-color: rgba(14, 24, 14, 0.98) !important;
+  border-color: rgba(40, 70, 40, 0.4) !important;
+}
+
+html[data-theme="dark"] footer .sb-copy,
+html[data-theme="dark"] footer a {
+  color: #7a9a68 !important;
+}
+
+/* ── Background decorations ─────────────── */
+html[data-theme="dark"] .sb-bg-1 {
+  border-color: #152115 !important;
+}
+
+html[data-theme="dark"] .sb-bg-1 div:after {
+  background-color: #152115 !important;
+}
+
+html[data-theme="dark"] .sb-bg-2 div:after {
+  border-color: #152115 !important;
+}
+
+html[data-theme="dark"] .sb-bg-3 {
+  background-color: #152115 !important;
+  border-color: transparent !important;
+}
+
+/* ── Illustration squares ────────────────── */
+html[data-theme="dark"] .sb-square {
+  background-color: #1e3020 !important;
+}
+
+html[data-theme="dark"] .sb-cirkle-1,
+html[data-theme="dark"] .sb-cirkle-2,
+html[data-theme="dark"] .sb-cirkle-3,
+html[data-theme="dark"] .sb-cirkle-4 {
+  opacity: 0.3;
+}
+
+/* ── About photo frame background ────────── */
+html[data-theme="dark"] .sb-interior-frame {
+  background: #1e3020 !important;
+}
+
+/* ── Menu & cards ───────────────────────── */
+html[data-theme="dark"] .sb-menu-item {
+  background-color: #192a19 !important;
+}
+
+html[data-theme="dark"] .sb-menu-item .sb-card-tp {
+  background-color: #1e3020 !important;
+}
+
+html[data-theme="dark"] .sb-menu-item p {
+  color: #7a9a68 !important;
+}
+
+html[data-theme="dark"] .sb-menu-item h4,
+html[data-theme="dark"] .sb-menu-item h3 {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Category cards ─────────────────────── */
+html[data-theme="dark"] .sb-categorie-card {
+  background-color: #192a19 !important;
+}
+
+html[data-theme="dark"] .sb-categorie-card h3 {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+html[data-theme="dark"] .sb-categorie-card .sb-text {
+  color: #7a9a68 !important;
+}
+
+/* ── Reviews / testimonial cards ─────────── */
+html[data-theme="dark"] .sb-review-card,
+html[data-theme="dark"] .sb-review-item {
+  background-color: #192a19 !important;
+}
+
+html[data-theme="dark"] .sb-review-card p,
+html[data-theme="dark"] .sb-review-item p,
+html[data-theme="dark"] .sb-review-item span {
+  color: #7a9a68 !important;
+}
+
+html[data-theme="dark"] .sb-review-card h4,
+html[data-theme="dark"] .sb-review-item h4,
+html[data-theme="dark"] .sb-review-item h5 {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+/* ── Contact info numbers ───────────────── */
+html[data-theme="dark"] .sb-number {
+  color: #FEB600 !important;
+}
+
+/* ── Product/slider cards ───────────────── */
+html[data-theme="dark"] .sb-product-card,
+html[data-theme="dark"] .sb-card {
+  background-color: #192a19 !important;
+}
+
+/* ── Cookie banner ──────────────────────── */
+html[data-theme="dark"] .kasturi-cookie-banner {
+  background-color: rgba(10, 18, 10, 0.99) !important;
+}
+
+/* ── Contact page cards ─────────────────── */
+html[data-theme="dark"] [style*="background: #f8f7f4"],
+html[data-theme="dark"] [style*="background: rgb(248, 247, 244)"] {
+  background: #1e3020 !important;
+}
+
+html[data-theme="dark"] [style*="background: #f0ece4"],
+html[data-theme="dark"] [style*="background: rgb(240, 236, 228)"] {
+  background: #192a19 !important;
+}
+
+/* ── Map consent placeholder ─────────────── */
+html[data-theme="dark"] .sb-map-frame [style*="#f0ece4"] {
+  background: #192a19 !important;
+  color: #a8b890 !important;
+}
+
+/* ── Page banner ─────────────────────────── */
+html[data-theme="dark"] .sb-banner-color {
+  background-color: #0f1a0f !important;
+}
+
+html[data-theme="dark"] .sb-banner-color h1,
+html[data-theme="dark"] .sb-banner-color h2,
+html[data-theme="dark"] .sb-banner-color p {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+/* ── Filter links (menu page) ───────────── */
+html[data-theme="dark"] .sb-filter-link {
+  background-color: #1e3020 !important;
+  color: #c4b890 !important;
+  border-color: rgba(80, 120, 80, 0.35) !important;
+  margin-right: 0 !important;
+}
+
+html[data-theme="dark"] .sb-filter-link.sb-active {
+  background-color: #FEB600 !important;
+  color: #1a1a1a !important;
+  border-color: #FEB600 !important;
+}
+
+/* ── Filter links (light mode) — also fix flex alignment ── */
+.sb-filter .sb-filter-link {
+  margin-right: 0 !important;
+}
+
+/* ── Slider nav arrows — both same style ── */
+.sb-slider-nav .sb-prev-btn,
+.sb-slider-nav .sb-next-btn {
+  border-color: #FEB600 !important;
+  color: #3F4F2A !important;
+}
+.sb-slider-nav .sb-next-btn {
+  background-color: #FEB600 !important;
+  color: #1a1a1a !important;
+}
+html[data-theme="dark"] .sb-slider-nav .sb-prev-btn {
+  border-color: rgba(80,120,80,0.6) !important;
+  background-color: transparent !important;
+  color: #a8b890 !important;
+}
+html[data-theme="dark"] .sb-slider-nav .sb-next-btn {
+  border-color: #FEB600 !important;
+  background-color: #FEB600 !important;
+  color: #1a1a1a !important;
+}
+
+/* ── Products slider header: desktop/mobile toggle ── */
+.sb-products-header-mobile {
+  display: none;
+}
+@media (max-width: 767px) {
+  .sb-products-header-desktop {
+    display: none !important;
+  }
+  .sb-products-header-mobile {
+    display: block;
+  }
+}
+
+/* ── Nav spacer — compensates for fixed nav height ── */
+.sb-nav-spacer {
+  height: 120px;
+}
+@media (max-width: 992px) {
+  .sb-nav-spacer {
+    height: 80px;
+  }
+}
+
+/* ── Active nav item — full name highlighted yellow ── */
+.sb-navigation li.sb-active > a {
+  color: #FEB600 !important;
+}
+
+
+/* ── Logo frame — allow natural aspect ratio ── */
+.sb-logo-frame {
+  width: auto !important;
+  height: auto !important;
+  flex-shrink: 0;
+  overflow: visible !important;
+  /* Desktop: sb-top-bar padding=15px, logo internal transparent≈13px, target=15px → offset=-13px */
+  margin-left: -13px;
+}
+.sb-logo-frame img {
+  width: auto !important;
+}
+/* Mobile ≤768px: sb-top-bar padding=30px, logo internal transparent≈10px, target=24px → -16px */
+@media (max-width: 768px) {
+  .sb-logo-frame {
+    margin-left: -16px;
+  }
+}
+
+/* ── New logo — transparent, no blend needed ── */
+.sb-logo-img {
+  mix-blend-mode: normal;
+}
+
+/* ── About illustration — mobile: show full image ── */
+@media (max-width: 992px) {
+  .sb-illustration-2 .sb-interior-frame {
+    height: auto !important;
+    position: relative !important;
+    width: 100% !important;
+    bottom: auto !important;
+    left: auto !important;
+  }
+  .sb-illustration-2 {
+    padding-bottom: 0 !important;
+    height: auto !important;
+  }
+  .sb-illustration-2 .sb-interior {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+  }
+}
+
+/* ── About illustration — remove zoom, no frame ── */
+.sb-interior {
+  animation: none !important;
+  object-fit: cover !important;
+  object-position: top center !important;
+}
+.sb-illustration-2 .sb-interior-frame {
+  background: transparent !important;
+  border-radius: 8px;
+}
+.sb-illustration-2 .sb-cirkle-1 {
+  border-color: #FEB600 !important;
+}
+
+/* ── Breadcrumbs — dark text on yellow bg in all modes ── */
+.sb-breadcrumbs li a,
+.sb-breadcrumbs li,
+.sb-breadcrumbs li:after {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+html[data-theme="dark"] .sb-breadcrumbs li a,
+html[data-theme="dark"] .sb-breadcrumbs li,
+html[data-theme="dark"] .sb-breadcrumbs li:after {
+  color: #1a1a1a !important;
+  opacity: 1 !important;
+}
+
+/* ── Menu section category headers ──────── */
+html[data-theme="dark"] .sb-short-menu h2,
+html[data-theme="dark"] .sb-reviews h2,
+html[data-theme="dark"] .sb-group-title h2 {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+html[data-theme="dark"] .sb-group-title h2 span {
+  color: #FEB600 !important;
+}
+
+/* ── Menu section category section headings (h3) */
+html[data-theme="dark"] .sb-menu-section h3 {
+  color: #c4b890 !important;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+html[data-theme="dark"] .sb-menu-section p {
+  color: #7a9a68 !important;
+}
+
+/* ── Menu section borders ────────────────── */
+html[data-theme="dark"] [style*="borderBottom: '2px solid #3F4F2A'"] {
+  border-color: rgba(80, 120, 80, 0.45) !important;
+}
+
+/* ── Slider nav arrows ───────────────────── */
+html[data-theme="dark"] .sb-prev-btn,
+html[data-theme="dark"] .sb-next-btn {
+  border-color: rgba(80, 120, 80, 0.45) !important;
+  color: #a8b890 !important;
+}
+
+html[data-theme="dark"] .sb-next-btn {
+  background-color: #1e3020 !important;
+  border-color: #1e3020 !important;
+  color: #c4b890 !important;
+}
+
+/* ── Contact info ────────────────────────── */
+html[data-theme="dark"] .sb-info-section h3,
+html[data-theme="dark"] .sb-info-section h4,
+html[data-theme="dark"] .sb-info-section p,
+html[data-theme="dark"] .sb-info-section span {
+  color: #a8b890 !important;
+}
+
+/* ── Yellow elements stay dark-text in dark mode ── */
+html[data-theme="dark"] .sb-btn,
+html[data-theme="dark"] .sb-btn span,
+html[data-theme="dark"] .sb-btn i {
+  color: #1a1a1a !important;
+}
+
+html[data-theme="dark"] .sb-price,
+html[data-theme="dark"] .sb-price sub {
+  color: #1a1a1a !important;
+}
+
+html[data-theme="dark"] .sb-badge.sb-mild,
+html[data-theme="dark"] .sb-badge.sb-mild i {
+  color: #1a1a1a !important;
+}
+
+html[data-theme="dark"] .sb-badge.sb-vegan,
+html[data-theme="dark"] .sb-badge.sb-vegetarian,
+html[data-theme="dark"] .sb-badge.sb-medium,
+html[data-theme="dark"] .sb-badge.sb-hot {
+  color: #fff !important;
+}
+
+html[data-theme="dark"] .sb-filter-link.sb-active {
+  color: #1a1a1a !important;
+}
+
+/* ── Input fields ────────────────────────── */
+html[data-theme="dark"] input,
+html[data-theme="dark"] textarea,
+html[data-theme="dark"] select {
+  background-color: #192a19 !important;
+  color: #a8b890 !important;
+  border-color: rgba(80, 120, 80, 0.45) !important;
+}
+
+html[data-theme="dark"] input::placeholder,
+html[data-theme="dark"] textarea::placeholder {
+  color: #567a4a !important;
+}

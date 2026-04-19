@@ -3,15 +3,15 @@
 import { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
+import { useLanguage, pick } from "@common/LanguageContext";
 
 const MenuItem = ({ item, index, noImage, marginBottom }) => {
-  const stars = [ '', '', '', '', '' ];
-  
   const [img, setImg] = useState(false);
   const [imgValue, setImgValue] = useState([]);
+  const { lang } = useLanguage();
 
   return (
-    <>    
+    <>
       <a data-fancybox="menu" data-no-swup href={item.image} className={`sb-menu-item sb-mb-${marginBottom}`} onClick={ (e) => { e.preventDefault(); setImg(true); setImgValue( [{ "src": item.image, "alt": item.title }] ); }}>
         {noImage != 1 &&
         <div className="sb-cover-frame">
@@ -24,18 +24,17 @@ const MenuItem = ({ item, index, noImage, marginBottom }) => {
             <div className="sb-price"><sub>{item.currency}</sub> {item.price}</div>
         </div>
         <div className="sb-description">
-            <p className="sb-text sb-mb-15">
-                {item.text}
+            <p className="sb-text" style={{
+                display: '-webkit-box',
+                WebkitLineClamp: 3,
+                WebkitBoxOrient: 'vertical',
+                overflow: 'hidden',
+            }}>
+                {pick(item, 'text', lang)}
             </p>
-            <ul className="sb-stars">
-                {stars.slice(0, item.rating).map((star_item, star_key) => (
-                <li key={`products-item-${index}-rating-star-${star_key}`}><i className="fas fa-star"></i></li>
-                ))}
-                <li><span>({item.rating} ratings)</span></li>
-            </ul>
         </div>
       </a>
-      
+
       <Lightbox
         open={img}
         close={() => setImg(false)}

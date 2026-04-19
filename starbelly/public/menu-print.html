@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kasturi Menu — Autentyczna Kuchnia Indyjska · Wrocław</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Rubik', sans-serif;
+      background: #fff;
+      color: #231e41;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+
+    .print-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #FEB600;
+      color: #1a1a1a;
+      border: none;
+      padding: 12px 24px;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      border-radius: 4px;
+      z-index: 999;
+    }
+    .print-btn:hover { background: #e5a400; }
+
+    @media print { .print-btn { display: none; } }
+
+    .header {
+      background: #3F4F2A;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px 30px;
+    }
+    .header img { height: 80px; margin-bottom: 16px; }
+    .header h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.5px; color: #FEB600; }
+    .header p { font-size: 13px; color: rgba(255,255,255,0.75); margin-top: 6px; }
+    .header .tagline { font-size: 11px; color: rgba(255,255,255,0.5); margin-top: 4px; }
+
+    .container { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
+
+    .category { margin-bottom: 48px; page-break-inside: avoid; }
+
+    .category-header {
+      border-bottom: 2px solid #3F4F2A;
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+    }
+    .category-header h2 {
+      font-size: 18px;
+      font-weight: 700;
+      color: #3F4F2A;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .category-header p {
+      font-size: 11px;
+      color: #888;
+      margin-top: 4px;
+    }
+
+    .items { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 24px; }
+
+    @media (max-width: 600px) { .items { grid-template-columns: 1fr; } }
+
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 8px 0;
+      border-bottom: 1px solid #f0ece4;
+    }
+    .item-info { flex: 1; padding-right: 12px; }
+    .item-name {
+      font-weight: 600;
+      font-size: 13px;
+      color: #231e41;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .item-desc { font-size: 11px; color: #888; margin-top: 2px; line-height: 1.4; }
+    .item-price {
+      font-weight: 700;
+      font-size: 14px;
+      color: #3F4F2A;
+      white-space: nowrap;
+    }
+    .item-price sub { font-size: 9px; vertical-align: baseline; margin-right: 1px; }
+
+    .badge {
+      display: inline-block;
+      font-size: 9px;
+      font-weight: 600;
+      padding: 1px 6px;
+      border-radius: 2px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .badge-vegan { background: #9CCC65; color: #1a1a1a; }
+    .badge-vegetarian { background: #81C784; color: #1a1a1a; }
+    .badge-mild { background: #FEB600; color: #1a1a1a; }
+    .badge-medium { background: #FF7043; color: #fff; }
+    .badge-spicy { background: #FF5252; color: #fff; }
+
+    .footer {
+      background: #3F4F2A;
+      color: rgba(255,255,255,0.7);
+      text-align: center;
+      padding: 24px;
+      font-size: 11px;
+      margin-top: 40px;
+    }
+    .footer strong { color: #FEB600; }
+  </style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">⬇ Save as PDF / Print</button>
+
+<div class="header">
+  <img src="/img/logo/logo.png" alt="Kasturi" onerror="this.style.display='none'" />
+  <h1>KASTURI</h1>
+  <p>Autentyczna Kuchnia Indyjska · Wrocław</p>
+  <p class="tagline">Komuny Paryskiej 45/2U · kasturi-ecd02.web.app</p>
+</div>
+
+<div class="container">
+
+  <!-- STARTERS -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Starters / Przystawki</h2>
+      <p>Handmade in our kitchen. Served with your choice of chutney.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Samosa</div>
+          <div class="item-desc">Fried pastry filled with potatoes, peas, and cashews.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>16</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Samosa Chaat</div>
+          <div class="item-desc">Crumbled samosa with sweet yogurt, chutney, and crispy sev.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>22</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Onion Ring Pakoda</div>
+          <div class="item-desc">Onion rings in chickpea flour batter, fried golden.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>17</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Paneer Pakoda</div>
+          <div class="item-desc">Paneer cubes in spiced chickpea flour batter, fried crispy.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>22</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TANDOOR -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Tandoor</h2>
+      <p>Marinated and baked in a traditional tandoor oven. Served with salad and chutney. Preparation approx. 25 min.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Chicken Tikka</div>
+          <div class="item-desc">Juicy chicken pieces in yogurt marinade with Indian spices.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>34</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Malai Tikka</div>
+          <div class="item-desc">Chicken in a creamy cashew and cream marinade, tender and mild.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>36</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Tikka Platter</div>
+          <div class="item-desc">A combination of classic Chicken Tikka and creamy Malai Tikka.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>40</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CURRY -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Curry</h2>
+      <p>Served with basmati rice. Swap for Indian bread or Jeera Rice for extra charge. Selected curries available vegan with tofu — ask staff.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Butter Masala</div>
+          <div class="item-desc">Creamy butter-tomato sauce with cashews. Paneer 37 | Chicken 40 | Prawns 50 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>37+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Korma</div>
+          <div class="item-desc">Silky cashew and cream sauce, rich and gently sweet. Paneer 39 | Chicken 42 | Prawns 52 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>39+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Mango Curry</div>
+          <div class="item-desc">Velvety mango sauce with cashews and cream. Paneer 40 | Chicken 43 | Prawns 53 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>40+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-medium">Medium</span> Tikka Masala</div>
+          <div class="item-desc">Onion-tomato sauce with cashews and cream. Paneer 36 | Chicken 39 | Lamb 45 | Prawns 48 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>36+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-medium">Medium</span> Palak Curry</div>
+          <div class="item-desc">Spinach curry with garlic, ginger, cashews, cream. Paneer 36 | Chicken 39 | Lamb 46 | Prawns 49 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>36+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-medium">Medium</span> Jalfrezi</div>
+          <div class="item-desc">Bell pepper and tomato curry. Paneer 37 | Chicken 40 | Lamb 47 | Prawns 50 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>37+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-medium">Medium</span> Methi Curry</div>
+          <div class="item-desc">Fenugreek sauce with cashews and cream. Paneer 37 | Chicken 40 | Lamb 46 | Prawns 50 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>37+</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-spicy">Spicy</span> Laal Maas</div>
+          <div class="item-desc">Rajasthani lamb curry slow-cooked with chili, yogurt, and spices.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>47</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-spicy">Spicy</span> Vindaloo</div>
+          <div class="item-desc">Fiery base with garlic, chili, cashews. Paneer 38 | Chicken 41 | Lamb 48 | Prawns 51 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>38+</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PLANT-BASED -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Plant-based / Dania Roślinne</h2>
+      <p>Served with basmati rice. Can be swapped for Indian bread or Jeera Rice for extra charge.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Moong Masala</div>
+          <div class="item-desc">Mung beans in creamy onion-tomato sauce.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>33</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Chana Masala</div>
+          <div class="item-desc">Chickpeas in a thick, richly spiced curry.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>35</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Daal</div>
+          <div class="item-desc">Smooth, creamy lentils with mild character.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>32</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Daal Tadka</div>
+          <div class="item-desc">Lentils with aromatic ghee, chili, and curry leaves.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>35</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Mix Veg Kadai</div>
+          <div class="item-desc">Mixed vegetables in kadai sauce. Paneer 35 | Tofu 35 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>35</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BREAD & RICE -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Bread &amp; Rice / Chleby i Ryż</h2>
+      <p>Traditional Indian breads from the tandoor and aromatic rice.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Basmati Rice</div>
+          <div class="item-desc">Included with all curries.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>7</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Jeera Rice</div>
+          <div class="item-desc">Basmati pan-fried in ghee with cumin. +5 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>12</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Plain Naan</div>
+          <div class="item-desc">Traditional wheat bread from tandoor. +2 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>9</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Butter Naan</div>
+          <div class="item-desc">Tandoor bread with melted butter. +4 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>11</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Garlic Naan</div>
+          <div class="item-desc">Tandoor bread with garlic and butter. +6 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>13</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Honey &amp; Butter Naan</div>
+          <div class="item-desc">Tandoor bread with butter and honey. +6 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>13</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Kasturi Special Naan</div>
+          <div class="item-desc">Garlic, butter, fenugreek, black seed. +8 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>15</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Roti</div>
+          <div class="item-desc">Wholegrain wheat flatbread. +2 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>8</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Butter Roti</div>
+          <div class="item-desc">Wholegrain flatbread with melted butter. +4 zł from rice.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>10</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SIDES -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Sides / Dodatki</h2>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Papad</div>
+          <div class="item-desc">Thin, crispy lentil wafer. Served with sauce.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>7</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Sooki Bhaji</div>
+          <div class="item-desc">Potatoes with turmeric, cumin, and Indian spices.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>12</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Indian-Style Cabbage</div>
+          <div class="item-desc">Cabbage stir-fried with bell pepper and mustard seeds.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>14</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Yogurt Chutney</div>
+          <div class="item-desc">Delicate, creamy yogurt sauce.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>4</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Mint-Coriander Chutney</div>
+          <div class="item-desc">Fresh sauce with mint and coriander.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>4</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Tamarind Chutney</div>
+          <div class="item-desc">Sweet and tangy tamarind sauce.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>4</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegan">Vegan</span> Chili Chutney</div>
+          <div class="item-desc">Intensely spicy chili sauce.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>4</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- KIDS -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Kids / Dla Dzieci</h2>
+      <p>Smaller portions, gentle flavours. Kids curries served with basmati rice.</p>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Sweet Potato Fries</div>
+          <div class="item-desc">With mild yogurt dip.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>14</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name">Crispy Chicken</div>
+          <div class="item-desc">Crispy fried chicken with yogurt dip.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>24</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Baby Naan</div>
+          <div class="item-desc">Small wheat bread for children.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>6</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Mango Kids Curry</div>
+          <div class="item-desc">Fruity mango curry. Paneer 27 | Chicken 29 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>27</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Kids Butter Masala</div>
+          <div class="item-desc">Gently sweet tomato sauce. Paneer 27 | Chicken 29 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>27</div>
+      </div>
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-mild">Mild</span> Korma Kids Curry</div>
+          <div class="item-desc">Delicate cashew and cream curry. Paneer 27 | Chicken 29 zł.</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>27</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DESSERTS -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Desserts / Desery</h2>
+    </div>
+    <div class="items">
+      <div class="item">
+        <div class="item-info">
+          <div class="item-name"><span class="badge badge-vegetarian">Veg</span> Gulab Jamun</div>
+          <div class="item-desc">Fried milk-dough balls in cardamom and rose syrup. Served warm. (2 pcs.)</div>
+        </div>
+        <div class="item-price"><sub>zł</sub>15</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DRINKS -->
+  <div class="category">
+    <div class="category-header">
+      <h2>Drinks / Napoje</h2>
+      <p>Specialty coffee, Indian teas, fresh lemonades, and lassi.</p>
+    </div>
+    <div class="items">
+      <div class="item"><div class="item-info"><div class="item-name">Mango Lassi</div><div class="item-desc">Creamy mango with coconut. 250ml.</div></div><div class="item-price"><sub>zł</sub>15</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Dry Fruit Lassi</div><div class="item-desc">Yogurt with almonds and cardamom. 250ml.</div></div><div class="item-price"><sub>zł</sub>13</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Salt Lassi</div><div class="item-desc">Lightly salted yogurt with spices. 250ml.</div></div><div class="item-price"><sub>zł</sub>10</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Classic Lemonade</div><div class="item-desc">Fresh citrus lemonade. 330ml / 850ml — 24 zł.</div></div><div class="item-price"><sub>zł</sub>14</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Masala Lemonade</div><div class="item-desc">Lemonade with salt and cumin. 330ml / 850ml — 25 zł.</div></div><div class="item-price"><sub>zł</sub>15</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Mango Lemonade</div><div class="item-desc">Fresh mango lemonade. 330ml.</div></div><div class="item-price"><sub>zł</sub>16</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Spiced Hibiscus Lemonade</div><div class="item-desc">Hibiscus with warm spices. 330ml.</div></div><div class="item-price"><sub>zł</sub>15</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Fresh Orange Juice</div><div class="item-desc">Freshly squeezed. 250ml.</div></div><div class="item-price"><sub>zł</sub>16</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Coconut Water</div><div class="item-desc">Natural coconut water. 330ml.</div></div><div class="item-price"><sub>zł</sub>15</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Mineral Water</div><div class="item-desc">Still or sparkling. 330ml — 8 zł / 700ml — 14 zł.</div></div><div class="item-price"><sub>zł</sub>8</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Masala Chai</div><div class="item-desc">Brewed tea with spices and milk. 170ml.</div></div><div class="item-price"><sub>zł</sub>14</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Masala Black Tea</div><div class="item-desc">Ginger-orange infusion. 270ml / 500ml — 17 zł.</div></div><div class="item-price"><sub>zł</sub>13</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Ginger-Orange Tea</div><div class="item-desc">Warming infusion. 250ml.</div></div><div class="item-price"><sub>zł</sub>15</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Tea Selection</div><div class="item-desc">Black, green, or fruit. 270ml.</div></div><div class="item-price"><sub>zł</sub>12</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Espresso</div><div class="item-desc">Single 30ml — 8 zł / Doppio 60ml — 10 zł. Specialty, freshly roasted.</div></div><div class="item-price"><sub>zł</sub>8</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Americano</div><div class="item-desc">170ml.</div></div><div class="item-price"><sub>zł</sub>12</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Cappuccino</div><div class="item-desc">180ml.</div></div><div class="item-price"><sub>zł</sub>12</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Masala Cappuccino</div><div class="item-desc">180ml. With house spice blend.</div></div><div class="item-price"><sub>zł</sub>14</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Flat White</div><div class="item-desc">180ml.</div></div><div class="item-price"><sub>zł</sub>14</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Latte</div><div class="item-desc">280ml.</div></div><div class="item-price"><sub>zł</sub>16</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Latte Macchiato</div><div class="item-desc">250ml.</div></div><div class="item-price"><sub>zł</sub>16</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Orange Espresso</div><div class="item-desc">250ml. Double espresso with fresh orange juice, over ice.</div></div><div class="item-price"><sub>zł</sub>18</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Beer — Miastolas Brewery</div><div class="item-desc">500ml. Local craft beer. Ask staff for selection.</div></div><div class="item-price">ask</div></div>
+      <div class="item"><div class="item-info"><div class="item-name">Indian Beer</div><div class="item-desc">330ml. Ask staff for selection.</div></div><div class="item-price">ask</div></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <strong>KASTURI kuchnia indyjska</strong> · Komuny Paryskiej 45/2U, 50-451 Wrocław<br>
+  Tel: +48 721 770 999 · kasturi.wroclaw@gmail.com · Mon–Sun 12:00–22:00<br>
+  <span style="font-size:10px;opacity:0.6">Prices in PLN (zł) · Menu may change · Please inform staff of any allergies</span>
+</div>
+
+</body>
+</html>

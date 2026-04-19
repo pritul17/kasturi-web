@@ -2,16 +2,18 @@
   "categories": [
     {
       "name": "Starters",
+      "name_pl": "Przystawki",
       "slug": "starters",
       "description": "Handmade in our kitchen. Served with your choice of chutney.",
+      "description_pl": "Przygotowane ręcznie w naszej kuchni. Podawane z chutney według wyboru.",
       "items": [
         {
           "image": "/img/menu/samosa.jpg",
           "title": "Samosa",
           "price": "16",
           "currency": "zł",
-          "rating": 5,
           "text": "Fried pastry filled with potatoes, peas, and cashews.",
+          "text_pl": "Smażone ciasteczko nadziewane ziemniakami, groszkiem i nerkowcami.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -19,8 +21,8 @@
           "title": "Samosa Chaat",
           "price": "22",
           "currency": "zł",
-          "rating": 5,
           "text": "Crumbled samosa with sweet yogurt, chutney, and crispy sev.",
+          "text_pl": "Pokruszona samosa z słodkim jogurtem, chutney i chrupiącym sev.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -28,8 +30,8 @@
           "title": "Onion Ring Pakoda",
           "price": "17",
           "currency": "zł",
-          "rating": 5,
           "text": "Onion rings in chickpea flour batter, fried golden.",
+          "text_pl": "Pierścienie cebuli w cieście z mąki ciecierzycy, smażone na złoto.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -37,55 +39,104 @@
           "title": "Paneer Pakoda",
           "price": "22",
           "currency": "zł",
-          "rating": 5,
           "text": "Paneer cubes in spiced chickpea flour batter, fried crispy.",
+          "text_pl": "Kostki paneer w przyprawionej mące ciecierzycy, usmażone na chrupiąco.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     },
     {
       "name": "Tandoor",
+      "name_pl": "Tandoor",
       "slug": "tandoor",
       "description": "Marinated and baked in a traditional tandoor oven. Served with salad and your choice of chutney. Preparation approx. 25 min.",
+      "description_pl": "Marynowane i pieczone w tradycyjnym piecu tandoor. Podawane z sałatką i chutney. Czas przygotowania ok. 25 min.",
       "items": [
         {
           "image": "/img/menu/chicken-tikka.jpg",
           "title": "Chicken Tikka",
           "price": "34",
           "currency": "zł",
-          "rating": 5,
-          "text": "Juicy chicken pieces in yogurt marinade with Indian spices."
+          "text": "Juicy chicken pieces in yogurt marinade with Indian spices.",
+          "text_pl": "Soczyste kawałki kurczaka w marynacie jogurtowej z indyjskimi przyprawami."
         },
         {
           "image": "/img/menu/malai-tikka.jpg",
           "title": "Malai Tikka",
           "price": "36",
           "currency": "zł",
-          "rating": 5,
-          "text": "Chicken in a creamy cashew and cream marinade, tender and mild."
+          "text": "Chicken in a creamy cashew and cream marinade, tender and mild.",
+          "text_pl": "Kurczak w kremowej marynacie z nerkowców i śmietany, delikatny i łagodny."
         },
         {
           "image": "/img/menu/tikka-platter.jpg",
           "title": "Tikka Platter",
           "price": "40",
           "currency": "zł",
-          "rating": 5,
-          "text": "A combination of classic Chicken Tikka and creamy Malai Tikka."
+          "text": "A combination of classic Chicken Tikka and creamy Malai Tikka.",
+          "text_pl": "Połączenie klasycznego Chicken Tikka i kremowego Malai Tikka."
+        }
+      ]
+    },
+    {
+      "name": "Chutney",
+      "name_pl": "Chutney",
+      "slug": "chutney",
+      "description": "Traditional Indian sauces. Served with tandoor dishes and starters.",
+      "description_pl": "Tradycyjne indyjskie sosy. Podawane z daniami tandoor i przystawkami.",
+      "items": [
+        {
+          "image": "/img/menu/chutney-yogurt.jpg",
+          "title": "Yogurt Chutney",
+          "price": "4",
+          "currency": "zł",
+          "text": "Delicate, creamy yogurt sauce.",
+          "text_pl": "Delikatny, kremowy sos jogurtowy.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/chutney-mint.jpg",
+          "title": "Mint-Coriander Chutney",
+          "price": "4",
+          "currency": "zł",
+          "text": "Fresh sauce with mint and coriander.",
+          "text_pl": "Świeży sos z miętą i kolendrą.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/chutney-tamarind.jpg",
+          "title": "Tamarind Chutney",
+          "price": "4",
+          "currency": "zł",
+          "text": "Sweet and tangy tamarind sauce.",
+          "text_pl": "Słodko-kwaśny sos tamaryndowy.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/chutney-chili.jpg",
+          "title": "Chili Chutney",
+          "price": "4",
+          "currency": "zł",
+          "text": "Intensely spicy chili sauce.",
+          "text_pl": "Intensywnie pikantny sos chili.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         }
       ]
     },
     {
       "name": "Curry",
+      "name_pl": "Curry",
       "slug": "curry",
-      "description": "Each curry is served with basmati rice. Swap for Indian bread or Jeera Rice for an additional charge. Selected curries available vegan with tofu — ask staff.",
+      "description": "Served with basmati rice. Swap for Indian bread or Jeera Rice for an extra charge. Selected curries available vegan with tofu — ask staff.",
+      "description_pl": "Podawane z ryżem basmati. Możliwa zamiana na indyjski chleb lub ryż Jeera za dopłatą. Wybrane curry dostępne w wersji wegańskiej z tofu — zapytaj obsługę.",
       "items": [
         {
           "image": "/img/menu/butter-chicken.jpg",
           "title": "Butter Masala",
           "price": "37",
           "currency": "zł",
-          "rating": 5,
           "text": "Creamy butter-tomato sauce with cashews, subtly sweet. Paneer 37 | Chicken 40 | Prawns 50 zł.",
+          "text_pl": "Kremowy sos masłowo-pomidorowy z nerkowcami, subtelnie słodki. Paneer 37 | Kurczak 40 | Krewetki 50 zł.",
           "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         },
         {
@@ -93,8 +144,8 @@
           "title": "Korma",
           "price": "39",
           "currency": "zł",
-          "rating": 5,
           "text": "Silky cashew and cream sauce, rich and gently sweet. Paneer 39 | Chicken 42 | Prawns 52 zł.",
+          "text_pl": "Jedwabisty sos z nerkowców i śmietany, bogaty i delikatnie słodki. Paneer 39 | Kurczak 42 | Krewetki 52 zł.",
           "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         },
         {
@@ -102,8 +153,8 @@
           "title": "Mango Curry",
           "price": "40",
           "currency": "zł",
-          "rating": 5,
-          "text": "Velvety mango sauce with cashews and cream, fruity and sweet. Paneer 40 | Chicken 43 | Prawns 53 zł.",
+          "text": "Velvety mango sauce with cashews and cream. Paneer 40 | Chicken 43 | Prawns 53 zł.",
+          "text_pl": "Aksamitny sos mango z nerkowcami i śmietaną. Paneer 40 | Kurczak 43 | Krewetki 53 zł.",
           "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         },
         {
@@ -111,8 +162,8 @@
           "title": "Tikka Masala",
           "price": "36",
           "currency": "zł",
-          "rating": 5,
           "text": "Onion-tomato sauce with cashews and cream. Paneer 36 | Chicken 39 | Lamb 45 | Prawns 48 zł.",
+          "text_pl": "Sos cebulowo-pomidorowy z nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Jagnięcina 45 | Krewetki 48 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -120,8 +171,8 @@
           "title": "Palak Curry",
           "price": "36",
           "currency": "zł",
-          "rating": 5,
           "text": "Spinach curry with garlic, ginger, cashews, and cream. Paneer 36 | Chicken 39 | Lamb 46 | Prawns 49 zł.",
+          "text_pl": "Curry szpinakowe z czosnkiem, imbirem, nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Jagnięcina 46 | Krewetki 49 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -129,8 +180,8 @@
           "title": "Jalfrezi",
           "price": "37",
           "currency": "zł",
-          "rating": 5,
-          "text": "Bell pepper and tomato curry, lightly tangy with cashews and cream. Paneer 37 | Chicken 40 | Lamb 47 | Prawns 50 zł.",
+          "text": "Bell pepper and tomato curry, lightly tangy. Paneer 37 | Chicken 40 | Lamb 47 | Prawns 50 zł.",
+          "text_pl": "Curry z papryką i pomidorami, lekko kwaskowate. Paneer 37 | Kurczak 40 | Jagnięcina 47 | Krewetki 50 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -138,17 +189,17 @@
           "title": "Methi Curry",
           "price": "37",
           "currency": "zł",
-          "rating": 5,
           "text": "Subtly nutty fenugreek sauce with cashews and cream. Paneer 37 | Chicken 40 | Lamb 46 | Prawns 50 zł.",
+          "text_pl": "Subtelnie orzechowy sos kozieradkowy z nerkowcami i śmietaną. Paneer 37 | Kurczak 40 | Jagnięcina 46 | Krewetki 50 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
-          "image": "/img/menu/vindaloo.jpg",
+          "image": "/img/menu/laal-maas.jpg",
           "title": "Laal Maas",
           "price": "47",
           "currency": "zł",
-          "rating": 5,
           "text": "Traditional Rajasthani lamb curry slow-cooked with chili, yogurt, and spices.",
+          "text_pl": "Tradycyjne rajastańskie curry z jagnięciny gotowane wolno z chili, jogurtem i przyprawami.",
           "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
         },
         {
@@ -156,51 +207,44 @@
           "title": "Vindaloo",
           "price": "38",
           "currency": "zł",
-          "rating": 5,
           "text": "Fiery onion-tomato base with garlic, chili, cashews, and cream. Paneer 38 | Chicken 41 | Lamb 48 | Prawns 51 zł.",
+          "text_pl": "Ognisty sos cebulowo-pomidorowy z czosnkiem, chili, nerkowcami i śmietaną. Paneer 38 | Kurczak 41 | Jagnięcina 48 | Krewetki 51 zł.",
           "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
-        },
-        {
-          "image": "/img/menu/mix-veg-kadai.jpg",
-          "title": "Mix Veg Kadai",
-          "price": "35",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Mixed vegetables in traditional kadai sauce with onion-tomato base and cashews. Paneer 35 | Tofu 35 zł.",
-          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     },
     {
       "name": "Plant-based",
+      "name_pl": "Dania roślinne",
       "slug": "plant-based",
       "description": "Served with basmati rice. Can be swapped for Indian bread or Jeera Rice for an extra charge.",
+      "description_pl": "Podawane z ryżem basmati. Możliwa zamiana na indyjski chleb lub ryż Jeera za dopłatą.",
       "items": [
         {
-          "image": "/img/menu/daal.jpg",
+          "image": "/img/menu/moong-masala.jpg",
           "title": "Moong Masala",
           "price": "33",
           "currency": "zł",
-          "rating": 5,
           "text": "Mung beans simmered in creamy onion-tomato sauce with Indian spices.",
+          "text_pl": "Fasola mung gotowana w kremowym sosie cebulowo-pomidorowym z indyjskimi przyprawami.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/daal.jpg",
+          "image": "/img/menu/chana-masala.jpg",
           "title": "Chana Masala",
           "price": "35",
           "currency": "zł",
-          "rating": 5,
           "text": "Chickpeas in a thick, richly spiced curry with a hearty texture.",
+          "text_pl": "Ciecierzyca w gęstym, mocno przyprawionym curry o sycącej konsystencji.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/daal.jpg",
+          "image": "/img/menu/daal-tadka.jpg",
           "title": "Daal",
           "price": "32",
           "currency": "zł",
-          "rating": 5,
           "text": "Smooth, creamy lentils with a soothing and mild character.",
+          "text_pl": "Gładka, kremowa soczewica o łagodnym i kojącym smaku.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -208,24 +252,35 @@
           "title": "Daal Tadka",
           "price": "35",
           "currency": "zł",
-          "rating": 5,
           "text": "Lentils finished with aromatic ghee, chili, and curry leaves.",
+          "text_pl": "Soczewica wykończona aromatycznym ghee, chili i liśćmi curry.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/mix-veg-kadai.jpg",
+          "title": "Mix Veg Kadai",
+          "price": "35",
+          "currency": "zł",
+          "text": "Mixed vegetables in traditional kadai sauce with onion-tomato base and cashews. Paneer 35 | Tofu 35 zł.",
+          "text_pl": "Mieszane warzywa w tradycyjnym sosie kadai na bazie cebuli i pomidorów z nerkowcami. Paneer 35 | Tofu 35 zł.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     },
     {
       "name": "Bread & Rice",
+      "name_pl": "Chleby i ryż",
       "slug": "bread-rice",
-      "description": "Traditional Indian breads from the tandoor oven and aromatic rice dishes.",
+      "description": "Traditional Indian breads from the tandoor and aromatic rice.",
+      "description_pl": "Tradycyjne indyjskie chleby z pieca tandoor i aromatyczny ryż.",
       "items": [
         {
-          "image": "/img/menu/jeera-rice.jpg",
+          "image": "/img/menu/basmati-rice.jpg",
           "title": "Basmati Rice",
           "price": "7",
           "currency": "zł",
-          "rating": 5,
-          "text": "Fragrant long-grain basmati rice, included with all curries.",
+          "text": "Fragrant long-grain basmati rice. Included with all curries.",
+          "text_pl": "Aromatyczny ryż basmati długoziarnisty. W zestawie z każdym curry.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -233,17 +288,17 @@
           "title": "Jeera Rice",
           "price": "12",
           "currency": "zł",
-          "rating": 5,
           "text": "Basmati rice pan-fried in ghee with cumin. +5 zł upgrade from rice.",
+          "text_pl": "Ryż basmati smażony w ghee z kminkiem. Dopłata +5 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
-          "image": "/img/menu/butter-naan.jpg",
+          "image": "/img/menu/plain-naan.jpg",
           "title": "Plain Naan",
           "price": "9",
           "currency": "zł",
-          "rating": 5,
-          "text": "Traditional wheat bread from the tandoor. Contains milk and egg.",
+          "text": "Traditional wheat bread from the tandoor. +2 zł upgrade from rice.",
+          "text_pl": "Tradycyjny chleb pszenny z pieca tandoor. Dopłata +2 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -251,8 +306,8 @@
           "title": "Butter Naan",
           "price": "11",
           "currency": "zł",
-          "rating": 5,
           "text": "Tandoor bread with melted butter. +4 zł upgrade from rice.",
+          "text_pl": "Chleb tandoor z topionym masłem. Dopłata +4 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -260,17 +315,17 @@
           "title": "Garlic Naan",
           "price": "13",
           "currency": "zł",
-          "rating": 5,
           "text": "Tandoor bread with garlic and butter. +6 zł upgrade from rice.",
+          "text_pl": "Chleb tandoor z czosnkiem i masłem. Dopłata +6 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
-          "image": "/img/menu/butter-naan.jpg",
+          "image": "/img/menu/plain-naan.jpg",
           "title": "Honey & Butter Naan",
           "price": "13",
           "currency": "zł",
-          "rating": 5,
           "text": "Tandoor bread with butter and a touch of honey. +6 zł upgrade.",
+          "text_pl": "Chleb tandoor z masłem i odrobiną miodu. Dopłata +6 zł.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -278,8 +333,8 @@
           "title": "Kasturi Special Naan",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
           "text": "Signature naan with garlic, butter, fenugreek, and black seed. +8 zł upgrade.",
+          "text_pl": "Nasz firmowy naan z czosnkiem, masłem, kozieradką i czarnuszką. Dopłata +8 zł.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -287,8 +342,8 @@
           "title": "Roti",
           "price": "8",
           "currency": "zł",
-          "rating": 5,
           "text": "Wholegrain wheat flatbread. +2 zł upgrade from rice.",
+          "text_pl": "Pełnoziarnisty placek pszenny. Dopłata +2 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -296,33 +351,26 @@
           "title": "Butter Roti",
           "price": "10",
           "currency": "zł",
-          "rating": 5,
           "text": "Wholegrain flatbread with melted butter. +4 zł upgrade from rice.",
+          "text_pl": "Pełnoziarnisty placek z topionym masłem. Dopłata +4 zł zamiast ryżu.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]
     },
     {
       "name": "Sides",
+      "name_pl": "Dodatki",
       "slug": "sides",
-      "description": "Accompaniments and extras to complement your meal.",
+      "description": "Accompaniments to complement your meal.",
+      "description_pl": "Dodatki doskonale uzupełniające danie główne.",
       "items": [
-        {
-          "image": "/img/menu/samosa.jpg",
-          "title": "Papad",
-          "price": "7",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Thin, crispy lentil wafer. Served with sauce.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
         {
           "image": "/img/menu/sooki-bhaji.jpg",
           "title": "Sooki Bhaji",
           "price": "12",
           "currency": "zł",
-          "rating": 5,
           "text": "Potatoes sautéed with turmeric, cumin, and Indian spices.",
+          "text_pl": "Ziemniaki podsmażane z kurkumą, kminkiem i indyjskimi przyprawami.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -330,17 +378,26 @@
           "title": "Indian-Style Cabbage",
           "price": "14",
           "currency": "zł",
-          "rating": 5,
           "text": "Cabbage stir-fried with bell pepper, mustard seeds, and Indian spices.",
+          "text_pl": "Kapusta smażona z papryką, gorczycą i indyjskimi przyprawami.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "name_pl": "Dla dzieci",
+      "slug": "kids",
+      "description": "Smaller portions, gentle flavours. Kids curries served with basmati rice.",
+      "description_pl": "Mniejsze porcje, łagodne smaki. Curry dla dzieci podawane z ryżem basmati.",
+      "items": [
         {
           "image": "/img/menu/sweet-potato-fries.jpg",
           "title": "Sweet Potato Fries",
           "price": "14",
           "currency": "zł",
-          "rating": 5,
           "text": "Sweet potato fries served with a mild yogurt dip.",
+          "text_pl": "Frytki ze słodkiego ziemniaka podawane z łagodnym dipem jogurtowym.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -348,23 +405,79 @@
           "title": "Crispy Chicken",
           "price": "24",
           "currency": "zł",
-          "rating": 5,
-          "text": "Crispy fried chicken pieces served with yogurt dip."
+          "text": "Crispy fried chicken pieces served with yogurt dip.",
+          "text_pl": "Chrupiące kawałki smażonego kurczaka podawane z dipem jogurtowym."
+        },
+        {
+          "image": "/img/menu/kids-naan.jpg",
+          "title": "Baby Naan",
+          "price": "6",
+          "currency": "zł",
+          "text": "Small wheat bread for children.",
+          "text_pl": "Mały chleb pszenny dla dzieci.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/kids-naan.jpg",
+          "title": "Baby Butter Naan",
+          "price": "7",
+          "currency": "zł",
+          "text": "Small naan with melted butter.",
+          "text_pl": "Mały naan z topionym masłem.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/kids-naan.jpg",
+          "title": "Baby Honey & Butter Naan",
+          "price": "9",
+          "currency": "zł",
+          "text": "Small naan with butter and honey.",
+          "text_pl": "Mały naan z masłem i miodem.",
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
+        },
+        {
+          "image": "/img/menu/kids-mango-curry.jpg",
+          "title": "Mango Kids Curry",
+          "price": "27",
+          "currency": "zł",
+          "text": "Fruity mango curry with cashews and cream. Paneer 27 | Chicken 29 zł.",
+          "text_pl": "Owocowe curry mango z nerkowcami i śmietaną. Paneer 27 | Kurczak 29 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
+        },
+        {
+          "image": "/img/menu/kids-butter-masala.jpg",
+          "title": "Kids Butter Masala",
+          "price": "27",
+          "currency": "zł",
+          "text": "Gently sweet tomato sauce with cashews and cream. Paneer 27 | Chicken 29 zł.",
+          "text_pl": "Delikatnie słodki sos pomidorowy z nerkowcami i śmietaną. Paneer 27 | Kurczak 29 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
+        },
+        {
+          "image": "/img/menu/kids-korma.jpg",
+          "title": "Korma Kids Curry",
+          "price": "27",
+          "currency": "zł",
+          "text": "Delicate, sweet cashew and cream curry. Paneer 27 | Chicken 29 zł.",
+          "text_pl": "Delikatne, słodkie curry z nerkowcami i śmietaną. Paneer 27 | Kurczak 29 zł.",
+          "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
         }
       ]
     },
     {
       "name": "Drinks",
+      "name_pl": "Napoje",
       "slug": "drinks",
-      "description": "Indian yogurt drinks, fresh lemonades, specialty coffee, and teas.",
+      "description": "Specialty coffee, Indian teas, fresh lemonades, and lassi.",
+      "description_pl": "Kawa specialty, herbaty indyjskie, świeże lemoniady i lassi.",
       "items": [
         {
           "image": "/img/menu/mango-lassi.jpg",
           "title": "Mango Lassi",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
-          "text": "Creamy mango with a delicate hint of coconut. 250 ml.",
+          "text": "Creamy mango with a delicate hint of coconut. 250ml.",
+          "text_pl": "Kremowe mango z delikatną nutą kokosa. 250ml.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -372,8 +485,8 @@
           "title": "Dry Fruit Lassi",
           "price": "13",
           "currency": "zł",
-          "rating": 5,
-          "text": "Yogurt with almonds and cardamom. 250 ml.",
+          "text": "Yogurt with almonds and cardamom. 250ml.",
+          "text_pl": "Jogurt z migdałami i kardamonem. 250ml.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -381,8 +494,8 @@
           "title": "Salt Lassi",
           "price": "10",
           "currency": "zł",
-          "rating": 5,
-          "text": "Refreshing, lightly salted yogurt drink with spices and fresh coriander. 250 ml.",
+          "text": "Refreshing, lightly salted yogurt drink with spices and coriander. 250ml.",
+          "text_pl": "Orzeźwiający, lekko słony napój jogurtowy z przyprawami i kolendrą. 250ml.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
@@ -390,8 +503,8 @@
           "title": "Classic Lemonade",
           "price": "14",
           "currency": "zł",
-          "rating": 5,
-          "text": "Fresh-squeezed citrus lemonade with natural spices. 330 ml / 850 ml 24 zł.",
+          "text": "Fresh-squeezed citrus lemonade with natural spices. 330ml / 850ml — 24 zł.",
+          "text_pl": "Świeżo wyciskana lemonada cytrusowa z naturalnymi przyprawami. 330ml / 850ml — 24 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -399,8 +512,8 @@
           "title": "Masala Lemonade",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
-          "text": "Lemonade with salt and cumin. 330 ml / 850 ml 25 zł.",
+          "text": "Lemonade with salt and cumin. 330ml / 850ml — 25 zł.",
+          "text_pl": "Lemonada z solą i kminkiem. 330ml / 850ml — 25 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -408,8 +521,8 @@
           "title": "Mango Lemonade",
           "price": "16",
           "currency": "zł",
-          "rating": 5,
-          "text": "Fresh mango lemonade. 330 ml.",
+          "text": "Fresh mango lemonade. 330ml.",
+          "text_pl": "Świeża lemonada mango. 330ml.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
@@ -417,167 +530,186 @@
           "title": "Spiced Hibiscus Lemonade",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
-          "text": "Hibiscus-based lemonade with warm spices. 330 ml.",
+          "text": "Hibiscus-based lemonade with warm spices. 330ml.",
+          "text_pl": "Lemonada na bazie hibiskusa z ciepłymi przyprawami. 330ml.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+        },
+        {
+          "image": "/img/menu/mango-lemonade.jpg",
+          "noImage": true,
+          "title": "Fresh Orange Juice",
+          "price": "16",
+          "currency": "zł",
+          "text": "Freshly squeezed orange juice. 250ml.",
+          "text_pl": "Świeżo wyciskany sok pomarańczowy. 250ml.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/coconut-water.jpg",
+          "noImage": true,
           "title": "Coconut Water",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
-          "text": "Natural coconut water. 330 ml.",
+          "text": "Natural coconut water. 330ml.",
+          "text_pl": "Naturalna woda kokosowa. 330ml.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Espresso",
+          "image": "/img/menu/coconut-water.jpg",
+          "noImage": true,
+          "title": "Mineral Water",
           "price": "8",
           "currency": "zł",
-          "rating": 5,
-          "text": "Single 30ml 8 zł | Doppio 60ml 10 zł. Specialty coffee, freshly roasted in Wrocław."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Americano",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "170ml. Espresso with hot water. Milk +1 zł | plant milk +2 zł."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Cappuccino",
-          "price": "12",
-          "currency": "zł",
-          "rating": 5,
-          "text": "180ml. Classic espresso with steamed milk and foam."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Masala Cappuccino",
-          "price": "14",
-          "currency": "zł",
-          "rating": 5,
-          "text": "180ml. Cappuccino with a signature house spice blend."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Flat White",
-          "price": "14",
-          "currency": "zł",
-          "rating": 5,
-          "text": "180ml. Smooth espresso with velvety steamed milk."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Latte",
-          "price": "16",
-          "currency": "zł",
-          "rating": 5,
-          "text": "280ml. Mild espresso with steamed milk."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Latte Macchiato",
-          "price": "16",
-          "currency": "zł",
-          "rating": 5,
-          "text": "250ml. Layered espresso and steamed milk."
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Orange Espresso",
-          "price": "18",
-          "currency": "zł",
-          "rating": 5,
-          "text": "250ml. Double espresso with fresh orange juice, served over ice."
+          "text": "Still or sparkling. 330ml — 8 zł / 700ml — 14 zł.",
+          "text_pl": "Niegazowana lub gazowana. 330ml — 8 zł / 700ml — 14 zł.",
+          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
           "title": "Masala Chai",
           "price": "14",
           "currency": "zł",
-          "rating": 5,
-          "text": "Traditionally brewed tea with spices and milk. 170 ml.",
+          "text": "Traditionally brewed tea with spices and milk. 170ml.",
+          "text_pl": "Tradycyjnie parzona herbata z przyprawami i mlekiem. 170ml.",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
           "title": "Masala Black Tea",
           "price": "13",
           "currency": "zł",
-          "rating": 5,
-          "text": "Warming ginger-orange infusion. 270ml / 500ml 17 zł.",
+          "text": "Warming ginger-orange infusion. 270ml / 500ml — 17 zł.",
+          "text_pl": "Rozgrzewający napar imbirowo-pomarańczowy. 270ml / 500ml — 17 zł.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
           "title": "Ginger-Orange Tea",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
           "text": "Warming ginger and orange infusion. 250ml.",
+          "text_pl": "Rozgrzewający napar z imbiru i pomarańczy. 250ml.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
           "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
           "title": "Tea Selection",
           "price": "12",
           "currency": "zł",
-          "rating": 5,
-          "text": "270ml. Black, green, or fruit tea.",
+          "text": "Black, green, or fruit tea. 270ml.",
+          "text_pl": "Herbata czarna, zielona lub owocowa. 270ml.",
           "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
         },
         {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Fresh Orange Juice",
-          "price": "16",
-          "currency": "zł",
-          "rating": 5,
-          "text": "Freshly squeezed orange juice. 250ml.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
-        },
-        {
-          "image": "/img/menu/lemonade.jpg",
-          "title": "Mineral Water",
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Espresso",
           "price": "8",
           "currency": "zł",
-          "rating": 5,
-          "text": "Still or sparkling. 330ml 8 zł / 700ml 14 zł.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+          "text": "Single 30ml — 8 zł / Doppio 60ml — 10 zł. Specialty coffee, freshly roasted in Wrocław.",
+          "text_pl": "Single 30ml — 8 zł / Doppio 60ml — 10 zł. Kawa specialty, świeżo palona we Wrocławiu."
         },
         {
-          "image": "/img/menu/lemonade.jpg",
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Americano",
+          "price": "12",
+          "currency": "zł",
+          "text": "170ml. Espresso with hot water.",
+          "text_pl": "170ml. Espresso z gorącą wodą."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Cappuccino",
+          "price": "12",
+          "currency": "zł",
+          "text": "180ml. Classic espresso with steamed milk and foam.",
+          "text_pl": "180ml. Klasyczne espresso z gotowanym mlekiem i pianką."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Masala Cappuccino",
+          "price": "14",
+          "currency": "zł",
+          "text": "180ml. Cappuccino with a signature house spice blend.",
+          "text_pl": "180ml. Cappuccino z naszą firmową mieszanką przypraw."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Flat White",
+          "price": "14",
+          "currency": "zł",
+          "text": "180ml. Smooth espresso with velvety steamed milk.",
+          "text_pl": "180ml. Gładkie espresso z aksamitnym gotowanym mlekiem."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Latte",
+          "price": "16",
+          "currency": "zł",
+          "text": "280ml. Mild espresso with steamed milk.",
+          "text_pl": "280ml. Łagodne espresso z gotowanym mlekiem."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Latte Macchiato",
+          "price": "16",
+          "currency": "zł",
+          "text": "250ml. Layered espresso and steamed milk.",
+          "text_pl": "250ml. Warstwowe espresso z gotowanym mlekiem."
+        },
+        {
+          "image": "/img/menu/mango-lassi.jpg",
+          "noImage": true,
+          "title": "Orange Espresso",
+          "price": "18",
+          "currency": "zł",
+          "text": "250ml. Double espresso with fresh orange juice, served over ice.",
+          "text_pl": "250ml. Podwójne espresso ze świeżym sokiem pomarańczowym, podawane z lodem."
+        },
+        {
+          "image": "/img/menu/coconut-water.jpg",
+          "noImage": true,
           "title": "Beer — Miastolas Brewery",
           "price": "ask staff",
           "currency": "",
-          "rating": 5,
-          "text": "500ml. Local craft beer from Wrocław. Ask staff for today's selection."
+          "text": "500ml. Local craft beer from Wrocław. Ask staff for today's selection.",
+          "text_pl": "500ml. Lokalne piwo rzemieślnicze z Wrocławia. Zapytaj obsługę o dzisiejszy wybór."
         },
         {
-          "image": "/img/menu/lemonade.jpg",
+          "image": "/img/menu/coconut-water.jpg",
+          "noImage": true,
           "title": "Indian Beer",
           "price": "ask staff",
           "currency": "",
-          "rating": 5,
-          "text": "330ml. Ask staff for today's selection."
+          "text": "330ml. Ask staff for today's selection.",
+          "text_pl": "330ml. Zapytaj obsługę o dzisiejszy wybór."
         }
       ]
     },
     {
       "name": "Desserts",
+      "name_pl": "Desery",
       "slug": "desserts",
       "description": "Traditional Indian sweets made with love.",
+      "description_pl": "Tradycyjne indyjskie słodkości przygotowane z miłością.",
       "items": [
         {
           "image": "/img/menu/gulab-jamun.jpg",
           "title": "Gulab Jamun",
           "price": "15",
           "currency": "zł",
-          "rating": 5,
           "text": "Fried milk-dough balls in cardamom and rose syrup. Served warm. (2 pcs.)",
+          "text_pl": "Smażone kulki z mlecznego ciasta w syropie kardamonowo-różanym. Podawane na ciepło. (2 szt.)",
           "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         }
       ]

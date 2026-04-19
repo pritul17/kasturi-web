@@ -1,33 +1,44 @@
 {
     "title": "Explore Our <span>Menu</span>",
+    "title_pl": "Odkryj Nasze <span>Menu</span>",
     "description": "Authentic Indian flavors made with traditional recipes<br>and the finest natural ingredients.",
+    "description_pl": "Autentyczne smaki indyjskie przygotowane według tradycyjnych receptur<br>i z najwyższej jakości naturalnych składników.",
     "button": {
         "link": "/menu",
-        "label": "View Full Menu"
+        "label": "View Full Menu",
+        "label_pl": "Zobacz pełne menu"
     },
     "items": [
         {
             "image": "/img/categories/1.png",
             "title": "Starters",
-            "text": "Crispy samosas, pakoras and authentic Indian appetizers.",
+            "title_pl": "Przystawki",
+            "text": "Crispy samosas, golden onion ring pakoda and fresh paneer pakoda.",
+            "text_pl": "Chrupiące samosas, złociste onion ring pakoda i świeże pakody z paneera.",
             "link": "/menu#starters"
         },
         {
             "image": "/img/categories/2.png",
             "title": "Main Dishes",
-            "text": "Aromatic curries, biryanis and traditional Indian dishes.",
+            "title_pl": "Dania główne",
+            "text": "Rich curries and aromatic masalas — Korma, Butter Masala, Jalfrezi and more.",
+            "text_pl": "Bogate curry i aromatyczne masale — Korma, Butter Masala, Jalfrezi i więcej.",
             "link": "/menu#main-dishes"
         },
         {
             "image": "/img/categories/3.png",
             "title": "Drinks",
-            "text": "Fresh lassi, masala chai and specialty Indian beverages.",
+            "title_pl": "Napoje",
+            "text": "Fresh mango lassi, homemade lemonades and refreshing Indian beverages.",
+            "text_pl": "Świeże mango lassi, domowe lemoniady i orzeźwiające indyjskie napoje.",
             "link": "/menu#drinks"
         },
         {
             "image": "/img/categories/4.png",
             "title": "Desserts",
-            "text": "Traditional Indian sweets and delicious dessert options.",
+            "title_pl": "Desery",
+            "text": "Warm Gulab Jamun in rose-scented sugar syrup — a perfect Indian sweet finish.",
+            "text_pl": "Ciepłe Gulab Jamun w aromatycznym syropie różanym — idealne indyjskie zakończenie.",
             "link": "/menu#desserts"
         }
     ]

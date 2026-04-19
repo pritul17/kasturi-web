@@ -242,8 +242,9 @@ menu
     & .sb-price {
       width: 60px;
       height: 60px;
-      font-weight: 500;
+      font-weight: 700;
       background-color: $c5;
+      color: #1a1a1a;
       font-size: 24px;
       display: flex;
       justify-content: center;
@@ -252,6 +253,7 @@ menu
       & sub {
         font-size: 12px;
         font-weight: 400;
+        color: #1a1a1a;
       }
     }
   }

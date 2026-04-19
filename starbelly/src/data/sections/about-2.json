@@ -1,12 +1,14 @@
 {
-    "title": "Authentic Indian Cuisine <br>in the Heart of Wrocław",
-    "description": "<p>KASTURI brings the true flavors of India to Wrocław. Our name, 'Kasturi,' means musk deer in Hindi – a symbol of something rare, precious, and deeply aromatic. We serve classic Indian dishes, aromatic curries, freshly baked naan, and unique regional specialties you won't find anywhere else in Wrocław.</p><p>Every dish is prepared with fresh, authentic ingredients and traditional recipes. We complement our cuisine with delicious coffee from local Wrocław roastery Mała Czarna, Indian beverages, and desserts. Our cozy atmosphere and friendly service make every visit special. Dine-in, takeaway, or delivery – experience the real taste of India at KASTURI!</p>",
+    "title": "Authentic Indian Cuisine <br>in Wrocław",
+    "title_pl": "Autentyczna Kuchnia Indyjska <br>we Wrocławiu",
+    "description": "<p>KASTURI was created from a simple idea: food should be natural, and made with care, just like at home.</p><p>The name <em>KASTURI</em> comes from the musk deer, known for the rare fragrance it carries within itself. In many cultures, it symbolizes something natural, and deeply authentic — something that doesn't need to be artificial or enhanced. For us, this reflects the essence of our kitchen: real ingredients and real flavors.</p><p>Our story began with a longing for true Indian cuisine — warm spices, slow cooking, and recipes rooted in tradition. We wanted to bring that feeling to Wrocław.</p><p>At KASTURI, we stay true to this philosophy every day. We do not use artificial colourings. We cook only with natural ingredients. Every dish is prepared with attention, respect for tradition, and care for your well-being.</p><p>For us, food is more than just a meal — it's an experience of comfort and connection. That's why our motto is simple: <strong>You should feel at home.</strong></p>",
+    "description_pl": "<p>KASTURI powstało z prostego pomysłu: jedzenie powinno być naturalne i przygotowane z troską — tak jak w domu.</p><p>Nazwa <em>KASTURI</em> pochodzi od piżmowego jelenia, który nosi w sobie rzadki i wyjątkowy zapach. W wielu kulturach symbolizuje on coś naturalnego i głęboko autentycznego — coś, co nie potrzebuje sztuczności ani ulepszaczy. Dla nas odzwierciedla to istotę naszej kuchni: prawdziwe składniki i prawdziwe smaki.</p><p>Nasza historia zaczęła się od tęsknoty za prawdziwą kuchną indyjską — ciepłymi przyprawami, powolnym gotowaniem i recepturami zakorzenionymi w tradycji. Chcieliśmy przynieść to uczucie do Wrocławia.</p><p>W KASTURI każdego dnia pozostajemy wierni tej filozofii. Nie używamy sztucznych barwników. Gotujemy wyłącznie z naturalnych składników. Każde danie przygotowujemy z uwagą, szacunkiem dla tradycji i troską o Twoje zdrowie.</p><p>Dla nas jedzenie to coś więcej niż posiłek — to doświadczenie komfortu i bliskości. Dlatego nasze motto jest proste: <strong>Powinieneś czuć się jak w domu.</strong></p>",
     "image": {
-        "url": "/img/gallery/2.jpg",
+        "url": "/img/gallery/about.jpg",
         "alt": "Kasturi Restaurant"
     },
     "number": {
-        "value": "50+",
-        "label": "Authentic Recipes"
+        "value": "",
+        "label": ""
     }
 }

@@ -1,29 +1,39 @@
 {
     "items": [
         {
-            "num": "01",
-            "title": "Near City Center",
-            "text": "Conveniently located at Komuny Paryskiej 45, just 10 minutes walk from the Old Town. Easy to reach for lunch, dinner, or a coffee break."
+            "icon": "fas fa-book-open",
+            "title": "The Story of KASTURI",
+            "title_pl": "Historia KASTURI",
+            "text": "Our name comes from the musk deer, a symbol of something rare, natural, and authentic. Just like its fragrance, we believe true flavor doesn't need to be artificial — it comes from within.",
+            "text_pl": "Nasza nazwa pochodzi od piżmowego jelenia — symbolu czegoś rzadkiego, naturalnego i autentycznego. Podobnie jak jego zapach, wierzymy, że prawdziwy smak nie musi być sztuczny — pochodzi z wnętrza."
         },
         {
-            "num": "02",
-            "title": "Fresh Ingredients",
-            "text": "Traditional Indian spices imported directly from India, combined with the freshest local produce. Every dish is prepared daily with authentic recipes."
+            "icon": "fas fa-leaf",
+            "title": "Authentic & Natural Cooking",
+            "title_pl": "Autentyczna i naturalna kuchnia",
+            "text": "We stay true to real Indian cuisine — every dish is prepared without artificial colouring, using only natural ingredients, letting spices and herbs speak for themselves.",
+            "text_pl": "Pozostajemy wierni prawdziwej kuchni indyjskiej — każde danie przygotowujemy bez sztucznych barwników, używając wyłącznie naturalnych składników, pozwalając przyprawom i ziołom mówić za siebie."
         },
         {
-            "num": "03",
-            "title": "Multiple Service Options",
-            "text": "Enjoy our food your way - in our cozy restaurant, order for takeaway, or have it delivered straight to your door through popular delivery platforms."
+            "icon": "fas fa-fire",
+            "title": "Inspired by Tradition",
+            "title_pl": "Inspirowana tradycją",
+            "text": "Our recipes come from authentic Indian cooking, rooted in generations of culinary heritage. From slow-cooked curries to freshly baked naan, every dish reflects true Indian flavors.",
+            "text_pl": "Nasze receptury wywodzą się z autentycznej kuchni indyjskiej, zakorzenionej w pokoleniach kulinarnego dziedzictwa. Od wolno gotowanych curry po świeżo pieczony naan — każde danie oddaje prawdziwe smaki Indii."
         },
         {
-            "num": "04",
-            "title": "Vegetarian & Vegan Options",
-            "text": "Extensive plant-based menu featuring traditional Indian vegetarian dishes. All dietary preferences are welcome with clearly marked options."
+            "icon": "fas fa-home",
+            "title": "Feel at Home",
+            "title_pl": "Poczuj się jak w domu",
+            "text": "KASTURI is more than a restaurant — it's a place to relax, slow down, and feel comfortable. Whether dining in or ordering at home, our goal is simple: you should feel at home.",
+            "text_pl": "KASTURI to coś więcej niż restauracja — to miejsce, gdzie można się zrelaksować i poczuć swobodnie. Niezależnie czy jesz u nas czy zamawiasz do domu, nasz cel jest prosty: powinieneś czuć się jak w domu."
         },
         {
-            "num": "05",
-            "title": "Unique Regional Specialties",
-            "text": "Discover authentic Indian street food and regional dishes you won't find elsewhere in Wrocław. From tandoori to aromatic curries and fresh naan."
+            "icon": "fas fa-map-marker-alt",
+            "title": "Regional Indian Specialties",
+            "title_pl": "Regionalne specjały indyjskie",
+            "text": "Discover dishes from different regions of India, from rich, aromatic curries to vibrant street food. We bring variety and authenticity you won't easily find elsewhere in Wrocław.",
+            "text_pl": "Odkryj potrawy z różnych regionów Indii — od bogatych, aromatycznych curry po kolorowe uliczne jedzenie. Oferujemy różnorodność i autentyczność, których trudno doświadczyć gdzie indziej we Wrocławiu."
         }
     ]
 }

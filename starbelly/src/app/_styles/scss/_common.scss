@@ -565,22 +565,42 @@ badge
   top: 15px;
   left: 15px;
   background-color: $c5;
+  color: #1a1a1a;
   padding: 3px 10px;
   font-size: 14px;
+  font-weight: 600;
   display: flex;
   align-items: center;
 
   & i {
     font-size: 11px;
     margin-right: 5px;
+    color: inherit;
   }
 
   &.sb-vegan {
-    background-color: #9CCC65;
+    background-color: #7cb342;
+    color: #fff;
+  }
+
+  &.sb-vegetarian {
+    background-color: #43a047;
+    color: #fff;
+  }
+
+  &.sb-mild {
+    background-color: $c5;
+    color: #1a1a1a;
+  }
+
+  &.sb-medium {
+    background-color: #e64a19;
+    color: #fff;
   }
 
   &.sb-hot {
-    background-color: #FF5252;
+    background-color: #c62828;
+    color: #fff;
   }
 }
 /***************************
@@ -664,6 +684,8 @@ buttons
   height: 55px;
   letter-spacing: 0;
   font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
   margin-right: 15px;
   margin-bottom: 10px;
   background-color: $c5;

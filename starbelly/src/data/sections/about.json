@@ -1,6 +1,6 @@
 {
-    "image": { 
-        "url": "/img/gallery/2.jpg",
+    "image": {
+        "url": "/img/gallery/about.jpg",
         "alt": "Kasturi Restaurant"
     },
     "number": {
@@ -8,21 +8,28 @@
         "label": ""
     },
     "title": "Authentic Indian Cuisine <br>in Wrocław",
+    "title_pl": "Autentyczna Kuchnia Indyjska <br>we Wrocławiu",
     "items": [
         {
-            "num": "01",
-            "title": "Near City Center",
-            "text": "Located at Komuny Paryskiej 45, just 10 minutes walk from Wrocław's Old Town. Easy to reach for lunch or dinner."
+            "icon": "fas fa-leaf",
+            "title": "Only Natural Ingredients",
+            "title_pl": "Tylko naturalne składniki",
+            "text": "No artificial colourings. Just natural ingredients and traditional Indian spices.",
+            "text_pl": "Bez sztucznych barwników. Tylko naturalne składniki i tradycyjne indyjskie przyprawy."
         },
         {
-            "num": "02",
-            "title": "Fresh, Authentic Ingredients",
-            "text": "Traditional Indian spices imported directly from India, combined with the freshest local produce for maximum flavor."
+            "icon": "fas fa-globe-asia",
+            "title": "Flavors from Across India",
+            "title_pl": "Smaki z całych Indii",
+            "text": "From rich curries to street food and tandoori dishes. A variety of authentic tastes in one place.",
+            "text_pl": "Od aromatycznych curry po uliczne jedzenie i potrawy tandoori. Bogactwo autentycznych smaków w jednym miejscu."
         },
         {
-            "num": "03",
-            "title": "Multiple Service Options",
-            "text": "Enjoy our food in our cozy restaurant, order takeaway, or have it delivered to your door through popular platforms."
+            "icon": "fas fa-home",
+            "title": "Dine In & Feel at Home",
+            "title_pl": "Zjedz u nas i poczuj się jak w domu",
+            "text": "Enjoy your meal in our cozy space. We want every visit to feel comfortable and familiar.",
+            "text_pl": "Ciesz się posiłkiem w naszej przytulnej przestrzeni. Zależy nam, aby każda wizyta była wygodna i swojska."
         }
     ]
 }

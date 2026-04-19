@@ -7,7 +7,8 @@
                 "price": "40",
                 "currency": "zł",
                 "rating": 5,
-                "text": "A combination of classic Chicken Tikka and creamy Malai Tikka from the tandoor."
+                "text": "A combination of classic Chicken Tikka and creamy Malai Tikka from the tandoor.",
+                "text_pl": "Połączenie klasycznej Chicken Tikka i kremowej Malai Tikka z tandooru."
             },
             {
                 "image": "/img/menu/chicken-tikka.jpg",
@@ -15,7 +16,8 @@
                 "price": "34",
                 "currency": "zł",
                 "rating": 5,
-                "text": "Juicy chicken pieces in yogurt marinade with Indian spices, baked in tandoor."
+                "text": "Juicy chicken pieces in yogurt marinade with Indian spices, baked in tandoor.",
+                "text_pl": "Soczyste kawałki kurczaka w marynacie jogurtowej z indyjskimi przyprawami, pieczone w tandoorze."
             },
             {
                 "image": "/img/menu/korma.jpg",
@@ -24,6 +26,7 @@
                 "currency": "zł",
                 "rating": 5,
                 "text": "Silky cashew and cream sauce, rich and gently sweet. Paneer 39 | Chicken 42 | Prawns 52 zł.",
+                "text_pl": "Jedwabisty sos z nerkowców i śmietanki, bogaty i delikatnie słodki. Paneer 39 | Kurczak 42 | Krewetki 52 zł.",
                 "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
             },
             {
@@ -33,6 +36,7 @@
                 "currency": "zł",
                 "rating": 5,
                 "text": "Velvety mango sauce with cashews and cream. Paneer 40 | Chicken 43 | Prawns 53 zł.",
+                "text_pl": "Aksamitny sos mango z nerkowcami i śmietanką. Paneer 40 | Kurczak 43 | Krewetki 53 zł.",
                 "badge": "<div class='sb-badge sb-mild'><i class='fas fa-fire-alt'></i> Mild</div>"
             },
             {
@@ -42,6 +46,7 @@
                 "currency": "zł",
                 "rating": 5,
                 "text": "Fried pastry filled with potatoes, peas, and cashews. Served with chutney.",
+                "text_pl": "Smażone ciasteczko z ziemniakami, groszkiem i nerkowcami. Podawane z chutney.",
                 "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
             },
             {
@@ -51,6 +56,7 @@
                 "currency": "zł",
                 "rating": 5,
                 "text": "Tandoor bread with garlic and butter.",
+                "text_pl": "Chleb tandoor z czosnkiem i masłem.",
                 "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
             }
         ],

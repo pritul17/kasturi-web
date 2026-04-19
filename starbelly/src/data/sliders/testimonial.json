@@ -1,67 +1,98 @@
 {
     "title": "What Our <span>Customers Say</span>",
-    "description": "Real reviews from our valued guests.<br>5.0 rating on Google!",
+    "title_pl": "Co Mówią Nasi <span>Klienci</span>",
+    "description": "Real reviews from our valued guests on Google.",
+    "description_pl": "Prawdziwe opinie naszych gości w Google.",
     "button": {
         "link": "https://www.google.com/maps/search/?api=1&query=KASTURI+kuchnia+indyjska+Komuny+Paryskiej+45+Wrocław",
         "icon": "/img/ui/icons/arrow.svg",
-        "label": "View Google Reviews"
+        "label": "View Google Reviews",
+        "label_pl": "Zobacz opinie w Google"
     },
     "items": [
         {
-            "title": "Authentic Indian Food",
+            "title": "A perfect, authentic place",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/1.jpg",
-            "text": "A small but perfectly formed Indian Restaurant within walking distance to Wroclaw town centre, serving authentic Indian food and drinks. I truly enjoyed the meal, personal service, relaxed and friendly ambience. Highly recommended."
+            "text": "A perfect, authentic and atmospheric place. The menu is not too long, however full of delicious, genuine positions. The flavors reminded me of my childhood spent in India and Sahaja Yoga Ashrams. The dishes could be more spicy — but just ask for the Indian level of spiciness!"
         },
         {
-            "title": "Amazing Experience!",
+            "title": "Świetna restauracja",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/2.jpg",
-            "text": "I was in Wrocław for 3 days and I ate here for all 3 days! Definitely good portion comparing to the price and quality they provide. They use natural ingredients and don't use any artificial colours. I highly recommend this place!"
+            "text": "Restauracja o prosto urządzonym wnętrzu, nie ma bardzo dużo miejsc siedzących, ale wydaje się, że nawet przy całym pełnym lokalu każdy będzie miał wystarczająco przestrzeni, stoliki są odpowiednio szerokie. Plusem jest to, że restauracja posiada menu online. Bardzo polecam!"
         },
         {
-            "title": "Best Combination",
+            "title": "Jedna z najlepszych knajp",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/3.jpg",
-            "text": "Moong masala with garlic naan is the best combination I had. Delicious dry fruit lassi! I would like to visit again and again."
+            "text": "Jedna z najlepszych knajp w których ostatnio miałam okazję zjeść. Jedzenie było pyszne, dobrze doprawione, i w ogóle nie monotonne. Zamówiliśmy napoje lassi — najlepszy jaki piłam! Definitywnie polecam i chętnie wrócę."
         },
         {
-            "title": "Best Indian Food",
+            "title": "Restaurant Week — nie żałujemy!",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/4.jpg",
-            "text": "The best Indian food! Great coffee too! Dogs are also welcome here. Highly recommended!"
+            "text": "Restaurant Week skłonił nas do zabawy w rezerwacje. I tak oto znaleźliśmy się w KASTURI. I nie żałujemy! Przytulne, ale proste wnętrze, jasne i czyste. Jedzenie przepyszne, deser Gulab Jamun podbił nasze serca!"
         },
         {
-            "title": "Natural Ingredients",
+            "title": "Pyszne hinduskie dania",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/1.jpg",
-            "text": "They use natural ingredients without artificial colors. After eating at most restaurants I feel sick, but here it was very good. Good food is very important for me during travel."
+            "text": "Pyszne hinduskie dania, polecam szczególnie pikantną baraninę laal maas. Super desery oraz aromatyczna pikantna herbata (dzbanuszek całkiem spory), czaj z mlekiem także bardzo dobry. Bardzo ładna zastawa. Pomocna i miła obsługa."
         },
         {
-            "title": "Perfect Service",
+            "title": "Gorąco polecam! 10/10",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/2.jpg",
-            "text": "Personal service, relaxed and friendly ambience. Would happily eat there on my own. The quality and authenticity of the food is outstanding!"
+            "text": "Gorąco polecam! Jedzenie jest 10/10. Sos butter masala był idealnie kremowy, delikatny i aromatyczny. Ser paneer miał perfekcyjną konsystencję. Obsługa — pełen profesjonalizm!"
         },
         {
-            "title": "Must Visit Place",
+            "title": "Fantastic restaurant!",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/3.jpg",
-            "text": "Amazing experience, loved it. Must visit place. Definitely good portions and quality. Will definitely come back during my next trip."
+            "text": "Fantastic restaurant! The taste of the food, tea and mango lassi was outstanding. Highly recommend this place."
         },
         {
-            "title": "Authentic & Fresh",
+            "title": "Jedna z ulubionych restauracji",
             "name": "Google Reviewer",
             "rating": 5,
             "image": "/img/faces/4.jpg",
-            "text": "Authentic Indian cuisine in Wrocław. Fresh ingredients, perfect spice levels, and generous portions. Coffee from Mała Czarna is excellent too!"
+            "text": "Jedna z moich ulubionych restauracji we Wrocławiu. Odwiedzam regularnie, szczególnie ze względu na ogromny wybór dań bezglutenowych. Super klimat i obsługa pierwsza klasa!"
+        },
+        {
+            "title": "Wspaniałe indyjskie jedzenie",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/1.jpg",
+            "text": "Wspaniałe indyjskie jedzenie! Dania pełne smaków, wyważone, doskonale podane w towarzystwie naan. Obsługa miła, rzetelna, opowiada o jedzeniu. Zdecydowanie numer 1 we Wrocławiu."
+        },
+        {
+            "title": "Świetne miejsce z autentyczną kuchnią",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/2.jpg",
+            "text": "Świetne miejsce z autentyczną kuchnią. Bardzo przystępne ceny, jak na takie dania — na spokojnie można wziąć przystawkę do głównego dania i nie wydać fortuny. Wszystko bardzo szybko podane i czuliśmy się zaopiekowani."
+        },
+        {
+            "title": "Very good experience",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/3.jpg",
+            "text": "It was overall a very good experience — good food, reasonable prices, good ambience although it has a limited tables, and good service too handled in a very perfect way."
+        },
+        {
+            "title": "Strzał w dziesiątkę!",
+            "name": "Google Reviewer",
+            "rating": 5,
+            "image": "/img/faces/4.jpg",
+            "text": "Wybrałam z mamą restaurację Kasturi w ramach Restaurant Week. To był strzał w dziesiątkę! Jesteśmy bardzo pozytywnie zaskoczone — lokal niepozorny a jedzenie wyśmienite, niesamowite połączenie smaków, estetycznie podane. Bardzo uprzejma obsługa."
         }
     ]
 }

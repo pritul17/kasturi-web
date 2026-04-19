@@ -1,9 +1,24 @@
 {
     "title": "Our <span>Popular</span> Dishes",
+    "title_pl": "Nasze <span>Popularne</span> Dania",
     "description": "Discover our most loved authentic Indian specialties,<br>crafted with traditional recipes and fresh ingredients.",
+    "description_pl": "Odkryj nasze najpopularniejsze autentyczne indyjskie specjały,<br>przygotowane według tradycyjnych receptur ze świeżych składników.",
     "button": {
         "link": "/menu",
         "icon": "/img/ui/icons/menu.svg",
-        "label": "View Full Menu"
+        "label": "View Full Menu",
+        "label_pl": "Zobacz pełne menu"
+    },
+    "button2": {
+        "link": "https://wolt.com/en/pol/wroclaw/restaurant/kasturi-kuchnia-indyjska",
+        "icon": "/img/ui/icons/cart.svg",
+        "label": "Order on Wolt",
+        "label_pl": "Zamów na Wolt"
+    },
+    "button3": {
+        "link": "https://www.ubereats.com/pl-en/store/kasturi-kuchnia-indyjska/clKqgEl4QdCODYeeoxzI9w",
+        "icon": "/img/ui/icons/cart.svg",
+        "label": "Order on Uber Eats",
+        "label_pl": "Zamów na Uber Eats"
     }
 }
