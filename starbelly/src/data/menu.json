@@ -101,7 +101,7 @@
           "currency": "zł",
           "text": "Fresh sauce with mint and coriander.",
           "text_pl": "Świeży sos z miętą i kolendrą.",
-          "badge": "<div class='sb-badge sb-vegan'><i class='fas fa-leaf'></i> Vegan</div>"
+          "badge": "<div class='sb-badge sb-vegetarian'><i class='fas fa-seedling'></i> Vegetarian</div>"
         },
         {
           "image": "/img/menu/chutney-tamarind.jpg",
