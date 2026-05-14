@@ -52,7 +52,7 @@ const Hero = () => {
         <div style={{ width: '100%', aspectRatio: '16/9', position: 'relative', overflow: 'hidden', background: '#0d1a0d' }}>
             <video autoPlay muted loop playsInline poster="/img/hero/banner-poster.jpg"
                 style={{ width: '100%', height: '100%', objectFit: 'contain', objectPosition: 'center center', display: 'block' }}>
-                <source src="/img/hero/banner-bg-new.mp4" type="video/mp4" />
+                <source src="https://pub-6af4f19e91444890944c25ca3b3629bc.r2.dev/banner-bg-new.mp4" type="video/mp4" />
             </video>
         </div>
     );
@@ -227,7 +227,7 @@ const Hero = () => {
                         zIndex: 0,
                     }}
                 >
-                    <source src="/img/hero/banner-bg-new.mp4" type="video/mp4" />
+                    <source src="https://pub-6af4f19e91444890944c25ca3b3629bc.r2.dev/banner-bg-new.mp4" type="video/mp4" />
                 </video>
                 <div style={{
                     position: 'absolute',
