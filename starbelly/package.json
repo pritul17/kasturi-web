@@ -10,9 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@dataconnect/generated": "file:src/dataconnect-generated",
     "date-fns": "^3.2.0",
-    "firebase": "^12.11.0",
     "formik": "^2.4.5",
     "gray-matter": "^4.0.3",
     "imagesloaded": "^5.0.0",
