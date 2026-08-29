@@ -163,7 +163,7 @@
           "price": "36",
           "currency": "zł",
           "text": "Onion-tomato sauce with cashews and cream. Paneer 36 | Chicken 39 | Lamb 45 | Prawns 48 zł.",
-          "text_pl": "Sos cebulowo-pomidorowy z nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Jagnięcina 45 | Krewetki 48 zł.",
+          "text_pl": "Sos cebulowo-pomidorowy z nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Baranina 45 | Krewetki 48 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -172,7 +172,7 @@
           "price": "36",
           "currency": "zł",
           "text": "Spinach curry with garlic, ginger, cashews, and cream. Paneer 36 | Chicken 39 | Lamb 46 | Prawns 49 zł.",
-          "text_pl": "Curry szpinakowe z czosnkiem, imbirem, nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Jagnięcina 46 | Krewetki 49 zł.",
+          "text_pl": "Curry szpinakowe z czosnkiem, imbirem, nerkowcami i śmietaną. Paneer 36 | Kurczak 39 | Baranina 46 | Krewetki 49 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -181,7 +181,7 @@
           "price": "37",
           "currency": "zł",
           "text": "Bell pepper and tomato curry, lightly tangy. Paneer 37 | Chicken 40 | Lamb 47 | Prawns 50 zł.",
-          "text_pl": "Curry z papryką i pomidorami, lekko kwaskowate. Paneer 37 | Kurczak 40 | Jagnięcina 47 | Krewetki 50 zł.",
+          "text_pl": "Curry z papryką i pomidorami, lekko kwaskowate. Paneer 37 | Kurczak 40 | Baranina 47 | Krewetki 50 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -190,7 +190,7 @@
           "price": "37",
           "currency": "zł",
           "text": "Subtly nutty fenugreek sauce with cashews and cream. Paneer 37 | Chicken 40 | Lamb 46 | Prawns 50 zł.",
-          "text_pl": "Subtelnie orzechowy sos kozieradkowy z nerkowcami i śmietaną. Paneer 37 | Kurczak 40 | Jagnięcina 46 | Krewetki 50 zł.",
+          "text_pl": "Subtelnie orzechowy sos kozieradkowy z nerkowcami i śmietaną. Paneer 37 | Kurczak 40 | Baranina 46 | Krewetki 50 zł.",
           "badge": "<div class='sb-badge sb-medium'><i class='fas fa-fire-alt'></i> Medium</div>"
         },
         {
@@ -199,7 +199,7 @@
           "price": "47",
           "currency": "zł",
           "text": "Traditional Rajasthani lamb curry slow-cooked with chili, yogurt, and spices.",
-          "text_pl": "Tradycyjne rajastańskie curry z jagnięciny gotowane wolno z chili, jogurtem i przyprawami.",
+          "text_pl": "Tradycyjne rajastańskie curry z baraniny gotowane wolno z chili, jogurtem i przyprawami.",
           "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
         },
         {
@@ -208,7 +208,7 @@
           "price": "38",
           "currency": "zł",
           "text": "Fiery onion-tomato base with garlic, chili, cashews, and cream. Paneer 38 | Chicken 41 | Lamb 48 | Prawns 51 zł.",
-          "text_pl": "Ognisty sos cebulowo-pomidorowy z czosnkiem, chili, nerkowcami i śmietaną. Paneer 38 | Kurczak 41 | Jagnięcina 48 | Krewetki 51 zł.",
+          "text_pl": "Ognisty sos cebulowo-pomidorowy z czosnkiem, chili, nerkowcami i śmietaną. Paneer 38 | Kurczak 41 | Baranina 48 | Krewetki 51 zł.",
           "badge": "<div class='sb-badge sb-hot'><i class='fas fa-pepper-hot'></i> Spicy</div>"
         }
       ]
